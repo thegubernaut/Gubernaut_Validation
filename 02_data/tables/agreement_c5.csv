@@ -1,0 +1,10 @@
+generator_run,judge_pair,exact_pct,within_1_pct,pearson_r,units_flagged_ge2_this_run
+GPT-5.5,claude~gemini,81.2,100.0,0.635,79
+GPT-5.5,claude~openai,42.1,69.3,0.317,79
+GPT-5.5,gemini~openai,43.1,66.3,0.296,79
+Opus 4.8,claude~gemini,74.8,99.5,0.735,49
+Opus 4.8,claude~openai,39.1,82.7,0.601,49
+Opus 4.8,gemini~openai,45.0,78.7,0.502,49
+Gemini 3.5 Flash,claude~gemini,83.7,100.0,0.944,40
+Gemini 3.5 Flash,claude~openai,62.4,86.1,0.745,40
+Gemini 3.5 Flash,gemini~openai,58.9,81.2,0.701,40

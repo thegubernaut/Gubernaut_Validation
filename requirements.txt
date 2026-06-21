@@ -1,0 +1,6 @@
+anthropic
+python-dotenv
+google-generativeai
+openai
+krippendorff
+scipy

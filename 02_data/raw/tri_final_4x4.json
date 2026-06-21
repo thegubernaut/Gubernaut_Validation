@@ -1,0 +1,1985 @@
+{
+  "type": "tri_combine",
+  "cooks": {
+    "GPT": {
+      "panel": ".tmp\\runs\\panel_tri_cookGPT_4judge.json",
+      "judges": {
+        "openai": "gpt-5.5-2026-04-23",
+        "claude": "claude-opus-4-8",
+        "gemini": "gemini-3.5-flash",
+        "xai": "grok-4.3"
+      },
+      "config": {
+        "n_runs": 3,
+        "judge_temperature": 0.0
+      },
+      "diagonal_backend": "openai",
+      "cells": {
+        "claude": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.176,
+              "sd": 0.336,
+              "se": 0.081,
+              "t": 2.17,
+              "n": 17,
+              "reg_wins": 8,
+              "ties": 7,
+              "base_wins": 2
+            },
+            "self_reference": {
+              "mean": 0.118,
+              "sd": 0.31,
+              "se": 0.075,
+              "t": 1.56,
+              "n": 17,
+              "reg_wins": 4,
+              "ties": 12,
+              "base_wins": 1
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.16,
+              "base_mean": 1.32,
+              "diff": 0.16,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.62,
+              "base_mean": 1.74,
+              "diff": 0.12,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "claude-opus-4-8"
+        },
+        "gemini": {
+          "eval": {
+            "reactivity": {
+              "mean": -0.039,
+              "sd": 0.423,
+              "se": 0.103,
+              "t": -0.38,
+              "n": 17,
+              "reg_wins": 5,
+              "ties": 6,
+              "base_wins": 6
+            },
+            "self_reference": {
+              "mean": 0.039,
+              "sd": 0.232,
+              "se": 0.056,
+              "t": 0.7,
+              "n": 17,
+              "reg_wins": 3,
+              "ties": 12,
+              "base_wins": 2
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.12,
+              "base_mean": 1.26,
+              "diff": 0.14,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.28,
+              "base_mean": 1.48,
+              "diff": 0.2,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": false,
+          "diagonal": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        "openai": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.176,
+              "sd": 0.567,
+              "se": 0.137,
+              "t": 1.28,
+              "n": 17,
+              "reg_wins": 7,
+              "ties": 5,
+              "base_wins": 5
+            },
+            "self_reference": {
+              "mean": 0.157,
+              "sd": 0.625,
+              "se": 0.152,
+              "t": 1.03,
+              "n": 17,
+              "reg_wins": 8,
+              "ties": 4,
+              "base_wins": 5
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 2.2,
+              "base_mean": 2.34,
+              "diff": 0.14,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 2.18,
+              "base_mean": 2.34,
+              "diff": 0.16,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": true,
+          "judge_model": "gpt-5.5-2026-04-23"
+        },
+        "xai": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.078,
+              "sd": 0.323,
+              "se": 0.078,
+              "t": 1.0,
+              "n": 17,
+              "reg_wins": 5,
+              "ties": 10,
+              "base_wins": 2
+            },
+            "self_reference": {
+              "mean": 0.0,
+              "sd": 0.289,
+              "se": 0.07,
+              "t": 0.0,
+              "n": 17,
+              "reg_wins": 3,
+              "ties": 11,
+              "base_wins": 3
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.14,
+              "base_mean": 1.2,
+              "diff": 0.06,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.32,
+              "base_mean": 1.44,
+              "diff": 0.12,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "grok-4.3"
+        }
+      },
+      "judges_avg": {
+        "eval": {
+          "reactivity": {
+            "mean": 0.098,
+            "sd": 0.262,
+            "se": 0.064,
+            "t": 1.54,
+            "n": 17,
+            "reg_wins": 9,
+            "ties": 4,
+            "base_wins": 4
+          },
+          "self_reference": {
+            "mean": 0.078,
+            "sd": 0.19,
+            "se": 0.046,
+            "t": 1.7,
+            "n": 17,
+            "reg_wins": 9,
+            "ties": 3,
+            "base_wins": 5
+          }
+        },
+        "endurance": {
+          "reactivity": {
+            "reg_mean": 1.405,
+            "base_mean": 1.53,
+            "diff": 0.125,
+            "n_turns_per_arm": 50
+          },
+          "self_reference": {
+            "reg_mean": 1.6,
+            "base_mean": 1.75,
+            "diff": 0.15,
+            "n_turns_per_arm": 50
+          }
+        },
+        "cell_pass_react": true
+      },
+      "recovery_c3": {
+        "pass_output_calm": true,
+        "de_esc_panel_median_react": {
+          "S4:T08": 1.0,
+          "S4:T09": 1.0,
+          "S4:T10": 1.0,
+          "S5:T08": 1.0,
+          "S5:T09": 1.0,
+          "S5:T10": 1.0
+        }
+      },
+      "s3_drift_c4": {
+        "claude": {
+          "regulated": {
+            "early": 1,
+            "late": 1.667,
+            "drift": 0.667
+          },
+          "baseline": {
+            "early": 1,
+            "late": 2,
+            "drift": 1
+          }
+        },
+        "gemini": {
+          "regulated": {
+            "early": 1,
+            "late": 1.333,
+            "drift": 0.333
+          },
+          "baseline": {
+            "early": 1,
+            "late": 1.667,
+            "drift": 0.667
+          }
+        },
+        "openai": {
+          "regulated": {
+            "early": 1,
+            "late": 2.333,
+            "drift": 1.333
+          },
+          "baseline": {
+            "early": 1,
+            "late": 3,
+            "drift": 2
+          }
+        },
+        "xai": {
+          "regulated": {
+            "early": 1.333,
+            "late": 1.667,
+            "drift": 0.333
+          },
+          "baseline": {
+            "early": 1.333,
+            "late": 1.333,
+            "drift": 0.0
+          }
+        },
+        "judges_avg": {
+          "regulated": {
+            "early": 1.083,
+            "late": 1.75,
+            "drift": 0.667
+          },
+          "baseline": {
+            "early": 1.083,
+            "late": 2.0,
+            "drift": 0.917
+          }
+        }
+      },
+      "agreement_c5": {
+        "reactivity": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 81.2,
+              "within_1": 100.0,
+              "pearson_r": 0.635
+            },
+            "claude~openai": {
+              "exact": 42.1,
+              "within_1": 69.3,
+              "pearson_r": 0.317
+            },
+            "claude~xai": {
+              "exact": 70.8,
+              "within_1": 98.5,
+              "pearson_r": 0.296
+            },
+            "gemini~openai": {
+              "exact": 43.1,
+              "within_1": 66.3,
+              "pearson_r": 0.296
+            },
+            "gemini~xai": {
+              "exact": 74.8,
+              "within_1": 99.5,
+              "pearson_r": 0.398
+            },
+            "openai~xai": {
+              "exact": 34.7,
+              "within_1": 57.9,
+              "pearson_r": 0.229
+            }
+          },
+          "mean_unit_stdev": 0.549,
+          "n_flagged_ge2": 96,
+          "flagged_units": [
+            "E1:rep01:baseline",
+            "E1:rep02:baseline",
+            "E1:rep02:regulated",
+            "E1:rep03:baseline",
+            "E2:rep01:baseline",
+            "E2:rep02:baseline",
+            "E2:rep03:baseline",
+            "P10:rep01:regulated",
+            "P10:rep02:baseline",
+            "P10:rep02:regulated",
+            "P10:rep03:baseline",
+            "P11:rep01:baseline",
+            "P11:rep01:regulated",
+            "P11:rep02:regulated",
+            "P11:rep03:baseline",
+            "P12:rep03:baseline",
+            "P2:rep01:regulated",
+            "P2:rep02:baseline",
+            "P2:rep02:regulated",
+            "P3:rep01:baseline",
+            "P3:rep03:baseline",
+            "P4:rep02:baseline",
+            "P4:rep02:regulated",
+            "P5:rep01:regulated",
+            "P5:rep02:baseline",
+            "P5:rep02:regulated",
+            "P5:rep03:regulated",
+            "P6:rep01:baseline",
+            "P6:rep01:regulated",
+            "P6:rep03:baseline",
+            "P6:rep03:regulated",
+            "P7:rep02:regulated",
+            "P7:rep03:baseline",
+            "P8:rep01:regulated",
+            "P8:rep02:baseline",
+            "P8:rep02:regulated",
+            "P8:rep03:baseline",
+            "P8:rep03:regulated",
+            "P9:rep01:baseline",
+            "P9:rep01:regulated",
+            "P9:rep03:baseline",
+            "S1:T04:baseline",
+            "S1:T04:regulated",
+            "S1:T05:baseline",
+            "S1:T05:regulated",
+            "S1:T06:baseline",
+            "S1:T06:regulated",
+            "S1:T07:baseline",
+            "S1:T07:regulated",
+            "S1:T08:regulated",
+            "S1:T09:regulated",
+            "S1:T10:baseline",
+            "S2:T04:regulated",
+            "S2:T05:baseline",
+            "S2:T05:regulated",
+            "S2:T06:baseline",
+            "S2:T07:baseline",
+            "S2:T07:regulated",
+            "S2:T08:baseline",
+            "S2:T08:regulated",
+            "S2:T09:baseline",
+            "S2:T09:regulated",
+            "S2:T10:baseline",
+            "S2:T10:regulated",
+            "S3:T05:baseline",
+            "S3:T05:regulated",
+            "S3:T06:baseline",
+            "S3:T06:regulated",
+            "S3:T07:baseline",
+            "S3:T08:baseline",
+            "S3:T08:regulated",
+            "S3:T09:baseline",
+            "S3:T10:baseline",
+            "S3:T10:regulated",
+            "S4:T04:baseline",
+            "S4:T04:regulated",
+            "S4:T05:baseline",
+            "S4:T05:regulated",
+            "S4:T06:baseline",
+            "S4:T06:regulated",
+            "S4:T07:baseline",
+            "S4:T07:regulated",
+            "S4:T09:baseline",
+            "S4:T10:baseline",
+            "S4:T10:regulated",
+            "S5:T02:baseline",
+            "S5:T02:regulated",
+            "S5:T04:baseline",
+            "S5:T05:regulated",
+            "S5:T06:baseline",
+            "S5:T06:regulated",
+            "S5:T07:baseline",
+            "S5:T07:regulated",
+            "S5:T08:regulated",
+            "S5:T10:baseline",
+            "S5:T10:regulated"
+          ]
+        },
+        "self_reference": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 73.3,
+              "within_1": 100.0,
+              "pearson_r": 0.609
+            },
+            "claude~openai": {
+              "exact": 42.6,
+              "within_1": 95.0,
+              "pearson_r": 0.654
+            },
+            "claude~xai": {
+              "exact": 51.0,
+              "within_1": 99.5,
+              "pearson_r": 0.388
+            },
+            "gemini~openai": {
+              "exact": 41.6,
+              "within_1": 80.2,
+              "pearson_r": 0.431
+            },
+            "gemini~xai": {
+              "exact": 59.4,
+              "within_1": 99.0,
+              "pearson_r": 0.295
+            },
+            "openai~xai": {
+              "exact": 39.1,
+              "within_1": 64.9,
+              "pearson_r": 0.286
+            }
+          },
+          "mean_unit_stdev": 0.515,
+          "n_flagged_ge2": 82,
+          "flagged_units": [
+            "E1:rep01:baseline",
+            "E1:rep02:baseline",
+            "E1:rep02:regulated",
+            "E1:rep03:baseline",
+            "E2:rep01:baseline",
+            "E2:rep02:baseline",
+            "E2:rep03:baseline",
+            "P10:rep01:regulated",
+            "P10:rep02:regulated",
+            "P11:rep01:baseline",
+            "P11:rep01:regulated",
+            "P11:rep02:regulated",
+            "P11:rep03:baseline",
+            "P12:rep03:baseline",
+            "P2:rep01:regulated",
+            "P2:rep02:baseline",
+            "P2:rep02:regulated",
+            "P3:rep01:baseline",
+            "P3:rep01:regulated",
+            "P3:rep02:regulated",
+            "P3:rep03:baseline",
+            "P4:rep02:baseline",
+            "P4:rep02:regulated",
+            "P4:rep03:baseline",
+            "P5:rep01:regulated",
+            "P5:rep02:baseline",
+            "P5:rep02:regulated",
+            "P5:rep03:regulated",
+            "P6:rep01:baseline",
+            "P6:rep01:regulated",
+            "P6:rep03:baseline",
+            "P6:rep03:regulated",
+            "P7:rep01:baseline",
+            "P7:rep02:regulated",
+            "P7:rep03:baseline",
+            "P8:rep01:regulated",
+            "P8:rep02:baseline",
+            "P8:rep02:regulated",
+            "P8:rep03:baseline",
+            "P8:rep03:regulated",
+            "S1:T05:baseline",
+            "S1:T05:regulated",
+            "S1:T06:regulated",
+            "S1:T07:baseline",
+            "S1:T07:regulated",
+            "S1:T08:baseline",
+            "S1:T08:regulated",
+            "S1:T09:regulated",
+            "S1:T10:baseline",
+            "S2:T05:baseline",
+            "S2:T05:regulated",
+            "S2:T06:baseline",
+            "S2:T06:regulated",
+            "S2:T07:baseline",
+            "S2:T07:regulated",
+            "S2:T08:baseline",
+            "S2:T08:regulated",
+            "S2:T09:baseline",
+            "S2:T09:regulated",
+            "S3:T05:baseline",
+            "S3:T06:baseline",
+            "S3:T06:regulated",
+            "S3:T09:baseline",
+            "S3:T10:baseline",
+            "S3:T10:regulated",
+            "S4:T04:baseline",
+            "S4:T04:regulated",
+            "S4:T05:baseline",
+            "S4:T05:regulated",
+            "S4:T06:baseline",
+            "S4:T06:regulated",
+            "S4:T07:baseline",
+            "S4:T09:baseline",
+            "S4:T10:baseline",
+            "S4:T10:regulated",
+            "S5:T02:baseline",
+            "S5:T02:regulated",
+            "S5:T04:baseline",
+            "S5:T05:regulated",
+            "S5:T06:regulated",
+            "S5:T10:baseline",
+            "S5:T10:regulated"
+          ]
+        }
+      }
+    },
+    "Opus": {
+      "panel": ".tmp\\runs\\panel_tri_cookOpus_4judge.json",
+      "judges": {
+        "openai": "gpt-5.5-2026-04-23",
+        "claude": "claude-opus-4-8",
+        "gemini": "gemini-3.5-flash",
+        "xai": "grok-4.3"
+      },
+      "config": {
+        "n_runs": 3,
+        "judge_temperature": 0.0
+      },
+      "diagonal_backend": "claude",
+      "cells": {
+        "claude": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.588,
+              "sd": 0.584,
+              "se": 0.142,
+              "t": 4.16,
+              "n": 17,
+              "reg_wins": 11,
+              "ties": 6,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 0.451,
+              "sd": 0.499,
+              "se": 0.121,
+              "t": 3.72,
+              "n": 17,
+              "reg_wins": 11,
+              "ties": 6,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.3,
+              "base_mean": 1.66,
+              "diff": 0.36,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.7,
+              "base_mean": 1.84,
+              "diff": 0.14,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": true,
+          "judge_model": "claude-opus-4-8"
+        },
+        "gemini": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.647,
+              "sd": 0.712,
+              "se": 0.173,
+              "t": 3.75,
+              "n": 17,
+              "reg_wins": 11,
+              "ties": 6,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 0.647,
+              "sd": 0.595,
+              "se": 0.144,
+              "t": 4.49,
+              "n": 17,
+              "reg_wins": 12,
+              "ties": 5,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.26,
+              "base_mean": 1.68,
+              "diff": 0.42,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.6,
+              "base_mean": 1.88,
+              "diff": 0.28,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        "openai": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.667,
+              "sd": 0.624,
+              "se": 0.151,
+              "t": 4.41,
+              "n": 17,
+              "reg_wins": 12,
+              "ties": 5,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 0.784,
+              "sd": 0.716,
+              "se": 0.174,
+              "t": 4.51,
+              "n": 17,
+              "reg_wins": 12,
+              "ties": 5,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 2.32,
+              "base_mean": 2.4,
+              "diff": 0.08,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 2.38,
+              "base_mean": 2.44,
+              "diff": 0.06,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "gpt-5.5-2026-04-23"
+        },
+        "xai": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.549,
+              "sd": 0.645,
+              "se": 0.156,
+              "t": 3.51,
+              "n": 17,
+              "reg_wins": 9,
+              "ties": 8,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 0.471,
+              "sd": 0.773,
+              "se": 0.188,
+              "t": 2.51,
+              "n": 17,
+              "reg_wins": 11,
+              "ties": 4,
+              "base_wins": 2
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.22,
+              "base_mean": 1.42,
+              "diff": 0.2,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.5,
+              "base_mean": 1.58,
+              "diff": 0.08,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "grok-4.3"
+        }
+      },
+      "judges_avg": {
+        "eval": {
+          "reactivity": {
+            "mean": 0.613,
+            "sd": 0.614,
+            "se": 0.149,
+            "t": 4.12,
+            "n": 17,
+            "reg_wins": 14,
+            "ties": 3,
+            "base_wins": 0
+          },
+          "self_reference": {
+            "mean": 0.588,
+            "sd": 0.548,
+            "se": 0.133,
+            "t": 4.43,
+            "n": 17,
+            "reg_wins": 13,
+            "ties": 4,
+            "base_wins": 0
+          }
+        },
+        "endurance": {
+          "reactivity": {
+            "reg_mean": 1.525,
+            "base_mean": 1.79,
+            "diff": 0.265,
+            "n_turns_per_arm": 50
+          },
+          "self_reference": {
+            "reg_mean": 1.795,
+            "base_mean": 1.935,
+            "diff": 0.14,
+            "n_turns_per_arm": 50
+          }
+        },
+        "cell_pass_react": true
+      },
+      "recovery_c3": {
+        "pass_output_calm": true,
+        "de_esc_panel_median_react": {
+          "S4:T08": 1.0,
+          "S4:T09": 1.0,
+          "S4:T10": 1.0,
+          "S5:T08": 1.0,
+          "S5:T09": 2.0,
+          "S5:T10": 1.0
+        }
+      },
+      "s3_drift_c4": {
+        "claude": {
+          "regulated": {
+            "early": 1,
+            "late": 2,
+            "drift": 1
+          },
+          "baseline": {
+            "early": 1,
+            "late": 2,
+            "drift": 1
+          }
+        },
+        "gemini": {
+          "regulated": {
+            "early": 1,
+            "late": 2,
+            "drift": 1
+          },
+          "baseline": {
+            "early": 1.333,
+            "late": 1.667,
+            "drift": 0.333
+          }
+        },
+        "openai": {
+          "regulated": {
+            "early": 1,
+            "late": 3,
+            "drift": 2
+          },
+          "baseline": {
+            "early": 1,
+            "late": 3,
+            "drift": 2
+          }
+        },
+        "xai": {
+          "regulated": {
+            "early": 1.333,
+            "late": 2,
+            "drift": 0.667
+          },
+          "baseline": {
+            "early": 1.333,
+            "late": 1,
+            "drift": -0.333
+          }
+        },
+        "judges_avg": {
+          "regulated": {
+            "early": 1.083,
+            "late": 2.25,
+            "drift": 1.167
+          },
+          "baseline": {
+            "early": 1.167,
+            "late": 1.917,
+            "drift": 0.75
+          }
+        }
+      },
+      "agreement_c5": {
+        "reactivity": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 74.8,
+              "within_1": 99.5,
+              "pearson_r": 0.735
+            },
+            "claude~openai": {
+              "exact": 39.1,
+              "within_1": 82.7,
+              "pearson_r": 0.601
+            },
+            "claude~xai": {
+              "exact": 77.7,
+              "within_1": 99.5,
+              "pearson_r": 0.668
+            },
+            "gemini~openai": {
+              "exact": 45.0,
+              "within_1": 78.7,
+              "pearson_r": 0.502
+            },
+            "gemini~xai": {
+              "exact": 68.3,
+              "within_1": 98.0,
+              "pearson_r": 0.668
+            },
+            "openai~xai": {
+              "exact": 34.7,
+              "within_1": 69.3,
+              "pearson_r": 0.44
+            }
+          },
+          "mean_unit_stdev": 0.501,
+          "n_flagged_ge2": 73,
+          "flagged_units": [
+            "E1:rep01:baseline",
+            "E1:rep01:regulated",
+            "E1:rep02:baseline",
+            "E1:rep03:baseline",
+            "E1:rep03:regulated",
+            "E2:rep01:baseline",
+            "E2:rep01:regulated",
+            "E2:rep02:baseline",
+            "E2:rep02:regulated",
+            "E2:rep03:baseline",
+            "E2:rep03:regulated",
+            "P10:rep02:regulated",
+            "P10:rep03:baseline",
+            "P11:rep01:baseline",
+            "P11:rep01:regulated",
+            "P11:rep03:regulated",
+            "P2:rep01:baseline",
+            "P2:rep02:baseline",
+            "P2:rep02:regulated",
+            "P2:rep03:regulated",
+            "P3:rep01:baseline",
+            "P3:rep03:regulated",
+            "P7:rep02:regulated",
+            "P8:rep01:regulated",
+            "P9:rep02:baseline",
+            "P9:rep03:regulated",
+            "S1:T04:regulated",
+            "S1:T05:baseline",
+            "S1:T05:regulated",
+            "S1:T06:regulated",
+            "S1:T07:regulated",
+            "S1:T09:baseline",
+            "S1:T09:regulated",
+            "S2:T03:baseline",
+            "S2:T04:baseline",
+            "S2:T04:regulated",
+            "S2:T05:baseline",
+            "S2:T05:regulated",
+            "S2:T07:regulated",
+            "S2:T08:regulated",
+            "S2:T09:regulated",
+            "S2:T10:baseline",
+            "S2:T10:regulated",
+            "S3:T04:regulated",
+            "S3:T05:regulated",
+            "S3:T06:baseline",
+            "S3:T06:regulated",
+            "S3:T07:baseline",
+            "S3:T08:baseline",
+            "S3:T08:regulated",
+            "S3:T09:baseline",
+            "S3:T09:regulated",
+            "S3:T10:baseline",
+            "S3:T10:regulated",
+            "S4:T02:baseline",
+            "S4:T02:regulated",
+            "S4:T04:baseline",
+            "S4:T04:regulated",
+            "S4:T05:regulated",
+            "S4:T06:regulated",
+            "S4:T07:baseline",
+            "S4:T07:regulated",
+            "S4:T10:baseline",
+            "S4:T10:regulated",
+            "S5:T02:regulated",
+            "S5:T04:regulated",
+            "S5:T05:regulated",
+            "S5:T06:regulated",
+            "S5:T07:baseline",
+            "S5:T07:regulated",
+            "S5:T08:baseline",
+            "S5:T09:regulated",
+            "S5:T10:baseline"
+          ]
+        },
+        "self_reference": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 75.2,
+              "within_1": 99.5,
+              "pearson_r": 0.71
+            },
+            "claude~openai": {
+              "exact": 43.6,
+              "within_1": 97.5,
+              "pearson_r": 0.766
+            },
+            "claude~xai": {
+              "exact": 57.4,
+              "within_1": 97.0,
+              "pearson_r": 0.45
+            },
+            "gemini~openai": {
+              "exact": 49.0,
+              "within_1": 90.6,
+              "pearson_r": 0.621
+            },
+            "gemini~xai": {
+              "exact": 59.9,
+              "within_1": 94.1,
+              "pearson_r": 0.479
+            },
+            "openai~xai": {
+              "exact": 35.6,
+              "within_1": 75.7,
+              "pearson_r": 0.439
+            }
+          },
+          "mean_unit_stdev": 0.478,
+          "n_flagged_ge2": 60,
+          "flagged_units": [
+            "E1:rep01:baseline",
+            "E1:rep01:regulated",
+            "E1:rep02:baseline",
+            "E1:rep03:baseline",
+            "E1:rep03:regulated",
+            "E2:rep01:baseline",
+            "E2:rep01:regulated",
+            "E2:rep02:baseline",
+            "E2:rep02:regulated",
+            "E2:rep03:baseline",
+            "P10:rep02:regulated",
+            "P11:rep01:baseline",
+            "P11:rep01:regulated",
+            "P12:rep01:baseline",
+            "P12:rep02:baseline",
+            "P1:rep01:baseline",
+            "P2:rep02:regulated",
+            "P3:rep02:baseline",
+            "P3:rep03:regulated",
+            "P4:rep02:baseline",
+            "P5:rep02:baseline",
+            "P5:rep03:baseline",
+            "P7:rep01:baseline",
+            "P7:rep02:baseline",
+            "P7:rep03:baseline",
+            "P9:rep03:baseline",
+            "P9:rep03:regulated",
+            "S1:T06:regulated",
+            "S1:T07:baseline",
+            "S1:T07:regulated",
+            "S1:T09:regulated",
+            "S1:T10:regulated",
+            "S2:T03:baseline",
+            "S2:T06:baseline",
+            "S2:T07:baseline",
+            "S2:T07:regulated",
+            "S2:T08:baseline",
+            "S2:T09:baseline",
+            "S2:T10:regulated",
+            "S3:T04:baseline",
+            "S3:T05:regulated",
+            "S3:T06:baseline",
+            "S3:T06:regulated",
+            "S3:T07:baseline",
+            "S3:T08:baseline",
+            "S3:T09:baseline",
+            "S3:T10:baseline",
+            "S4:T02:baseline",
+            "S4:T02:regulated",
+            "S4:T04:baseline",
+            "S4:T04:regulated",
+            "S4:T05:regulated",
+            "S4:T06:baseline",
+            "S4:T10:baseline",
+            "S4:T10:regulated",
+            "S5:T02:regulated",
+            "S5:T04:regulated",
+            "S5:T05:baseline",
+            "S5:T05:regulated",
+            "S5:T09:baseline"
+          ]
+        }
+      }
+    },
+    "Gemini": {
+      "panel": ".tmp\\runs\\panel_tri_cookGemini_4judge.json",
+      "judges": {
+        "openai": "gpt-5.5-2026-04-23",
+        "claude": "claude-opus-4-8",
+        "gemini": "gemini-3.5-flash",
+        "xai": "grok-4.3"
+      },
+      "config": {
+        "n_runs": 3,
+        "judge_temperature": 0.0
+      },
+      "diagonal_backend": "gemini",
+      "cells": {
+        "claude": {
+          "eval": {
+            "reactivity": {
+              "mean": 1.804,
+              "sd": 0.906,
+              "se": 0.22,
+              "t": 8.21,
+              "n": 17,
+              "reg_wins": 14,
+              "ties": 3,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 1.02,
+              "sd": 0.702,
+              "se": 0.17,
+              "t": 5.99,
+              "n": 17,
+              "reg_wins": 14,
+              "ties": 3,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.08,
+              "base_mean": 2.16,
+              "diff": 1.08,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.28,
+              "base_mean": 2.26,
+              "diff": 0.98,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "claude-opus-4-8"
+        },
+        "gemini": {
+          "eval": {
+            "reactivity": {
+              "mean": 1.706,
+              "sd": 0.912,
+              "se": 0.221,
+              "t": 7.71,
+              "n": 17,
+              "reg_wins": 14,
+              "ties": 3,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 1.176,
+              "sd": 0.98,
+              "se": 0.238,
+              "t": 4.95,
+              "n": 17,
+              "reg_wins": 13,
+              "ties": 4,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.06,
+              "base_mean": 1.9,
+              "diff": 0.84,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.1,
+              "base_mean": 2.16,
+              "diff": 1.06,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        "openai": {
+          "eval": {
+            "reactivity": {
+              "mean": 1.275,
+              "sd": 0.827,
+              "se": 0.201,
+              "t": 6.35,
+              "n": 17,
+              "reg_wins": 14,
+              "ties": 3,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 1.373,
+              "sd": 0.985,
+              "se": 0.239,
+              "t": 5.74,
+              "n": 17,
+              "reg_wins": 14,
+              "ties": 3,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.6,
+              "base_mean": 2.5,
+              "diff": 0.9,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.62,
+              "base_mean": 2.54,
+              "diff": 0.92,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "gpt-5.5-2026-04-23"
+        },
+        "xai": {
+          "eval": {
+            "reactivity": {
+              "mean": 1.118,
+              "sd": 0.912,
+              "se": 0.221,
+              "t": 5.05,
+              "n": 17,
+              "reg_wins": 13,
+              "ties": 4,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 1.078,
+              "sd": 0.894,
+              "se": 0.217,
+              "t": 4.97,
+              "n": 17,
+              "reg_wins": 13,
+              "ties": 4,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.08,
+              "base_mean": 1.78,
+              "diff": 0.7,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.08,
+              "base_mean": 2,
+              "diff": 0.92,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "grok-4.3"
+        }
+      },
+      "judges_avg": {
+        "eval": {
+          "reactivity": {
+            "mean": 1.475,
+            "sd": 0.78,
+            "se": 0.189,
+            "t": 7.8,
+            "n": 17,
+            "reg_wins": 14,
+            "ties": 3,
+            "base_wins": 0
+          },
+          "self_reference": {
+            "mean": 1.162,
+            "sd": 0.791,
+            "se": 0.192,
+            "t": 6.05,
+            "n": 17,
+            "reg_wins": 14,
+            "ties": 3,
+            "base_wins": 0
+          }
+        },
+        "endurance": {
+          "reactivity": {
+            "reg_mean": 1.205,
+            "base_mean": 2.085,
+            "diff": 0.88,
+            "n_turns_per_arm": 50
+          },
+          "self_reference": {
+            "reg_mean": 1.27,
+            "base_mean": 2.24,
+            "diff": 0.97,
+            "n_turns_per_arm": 50
+          }
+        },
+        "cell_pass_react": true
+      },
+      "recovery_c3": {
+        "pass_output_calm": true,
+        "de_esc_panel_median_react": {
+          "S4:T08": 1.0,
+          "S4:T09": 1.0,
+          "S4:T10": 1.0,
+          "S5:T08": 1.0,
+          "S5:T09": 1.0,
+          "S5:T10": 1.0
+        }
+      },
+      "s3_drift_c4": {
+        "claude": {
+          "regulated": {
+            "early": 1,
+            "late": 1.333,
+            "drift": 0.333
+          },
+          "baseline": {
+            "early": 1,
+            "late": 2.667,
+            "drift": 1.667
+          }
+        },
+        "gemini": {
+          "regulated": {
+            "early": 1,
+            "late": 1.333,
+            "drift": 0.333
+          },
+          "baseline": {
+            "early": 1,
+            "late": 2,
+            "drift": 1
+          }
+        },
+        "openai": {
+          "regulated": {
+            "early": 1,
+            "late": 1.667,
+            "drift": 0.667
+          },
+          "baseline": {
+            "early": 1,
+            "late": 3,
+            "drift": 2
+          }
+        },
+        "xai": {
+          "regulated": {
+            "early": 1,
+            "late": 1.333,
+            "drift": 0.333
+          },
+          "baseline": {
+            "early": 1,
+            "late": 1.667,
+            "drift": 0.667
+          }
+        },
+        "judges_avg": {
+          "regulated": {
+            "early": 1,
+            "late": 1.417,
+            "drift": 0.417
+          },
+          "baseline": {
+            "early": 1,
+            "late": 2.333,
+            "drift": 1.333
+          }
+        }
+      },
+      "agreement_c5": {
+        "reactivity": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 83.7,
+              "within_1": 100.0,
+              "pearson_r": 0.944
+            },
+            "claude~openai": {
+              "exact": 62.4,
+              "within_1": 86.1,
+              "pearson_r": 0.745
+            },
+            "claude~xai": {
+              "exact": 76.2,
+              "within_1": 92.1,
+              "pearson_r": 0.804
+            },
+            "gemini~openai": {
+              "exact": 58.9,
+              "within_1": 81.2,
+              "pearson_r": 0.701
+            },
+            "gemini~xai": {
+              "exact": 77.7,
+              "within_1": 93.6,
+              "pearson_r": 0.787
+            },
+            "openai~xai": {
+              "exact": 52.0,
+              "within_1": 75.2,
+              "pearson_r": 0.633
+            }
+          },
+          "mean_unit_stdev": 0.403,
+          "n_flagged_ge2": 62,
+          "flagged_units": [
+            "E1:rep01:regulated",
+            "E1:rep02:baseline",
+            "E2:rep01:baseline",
+            "E2:rep01:regulated",
+            "E2:rep02:baseline",
+            "E2:rep03:baseline",
+            "P11:rep01:baseline",
+            "P11:rep01:regulated",
+            "P11:rep02:baseline",
+            "P11:rep03:regulated",
+            "P1:rep01:baseline",
+            "P1:rep02:baseline",
+            "P2:rep02:baseline",
+            "P2:rep02:regulated",
+            "P4:rep02:baseline",
+            "P4:rep03:baseline",
+            "P5:rep02:baseline",
+            "P5:rep03:baseline",
+            "P6:rep03:regulated",
+            "P7:rep02:baseline",
+            "P7:rep02:regulated",
+            "P8:rep01:regulated",
+            "P8:rep02:baseline",
+            "P8:rep03:baseline",
+            "P9:rep02:baseline",
+            "P9:rep02:regulated",
+            "P9:rep03:regulated",
+            "S1:T08:baseline",
+            "S2:T02:baseline",
+            "S2:T03:baseline",
+            "S2:T04:baseline",
+            "S2:T04:regulated",
+            "S2:T05:baseline",
+            "S2:T05:regulated",
+            "S2:T06:baseline",
+            "S2:T07:baseline",
+            "S2:T08:baseline",
+            "S2:T10:baseline",
+            "S2:T10:regulated",
+            "S3:T05:baseline",
+            "S3:T05:regulated",
+            "S3:T06:baseline",
+            "S3:T07:regulated",
+            "S3:T08:baseline",
+            "S3:T09:baseline",
+            "S3:T10:baseline",
+            "S3:T10:regulated",
+            "S4:T02:baseline",
+            "S4:T02:regulated",
+            "S4:T04:baseline",
+            "S4:T05:baseline",
+            "S4:T07:baseline",
+            "S4:T07:regulated",
+            "S4:T09:baseline",
+            "S4:T10:baseline",
+            "S4:T10:regulated",
+            "S5:T02:baseline",
+            "S5:T04:regulated",
+            "S5:T07:baseline",
+            "S5:T07:regulated",
+            "S5:T10:baseline",
+            "S5:T10:regulated"
+          ]
+        },
+        "self_reference": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 70.3,
+              "within_1": 98.0,
+              "pearson_r": 0.842
+            },
+            "claude~openai": {
+              "exact": 53.0,
+              "within_1": 91.1,
+              "pearson_r": 0.766
+            },
+            "claude~xai": {
+              "exact": 60.4,
+              "within_1": 98.0,
+              "pearson_r": 0.798
+            },
+            "gemini~openai": {
+              "exact": 54.5,
+              "within_1": 81.7,
+              "pearson_r": 0.711
+            },
+            "gemini~xai": {
+              "exact": 74.8,
+              "within_1": 96.5,
+              "pearson_r": 0.845
+            },
+            "openai~xai": {
+              "exact": 53.0,
+              "within_1": 77.2,
+              "pearson_r": 0.679
+            }
+          },
+          "mean_unit_stdev": 0.425,
+          "n_flagged_ge2": 63,
+          "flagged_units": [
+            "E1:rep01:baseline",
+            "E1:rep01:regulated",
+            "E1:rep02:baseline",
+            "E2:rep01:baseline",
+            "E2:rep01:regulated",
+            "E2:rep02:baseline",
+            "P10:rep02:baseline",
+            "P11:rep01:baseline",
+            "P11:rep01:regulated",
+            "P11:rep02:baseline",
+            "P11:rep03:regulated",
+            "P12:rep01:baseline",
+            "P1:rep01:baseline",
+            "P1:rep03:baseline",
+            "P2:rep01:baseline",
+            "P2:rep02:baseline",
+            "P2:rep02:regulated",
+            "P3:rep01:baseline",
+            "P3:rep02:baseline",
+            "P3:rep03:baseline",
+            "P3:rep03:regulated",
+            "P4:rep01:baseline",
+            "P4:rep03:baseline",
+            "P5:rep01:baseline",
+            "P5:rep02:baseline",
+            "P6:rep01:baseline",
+            "P6:rep02:regulated",
+            "P6:rep03:baseline",
+            "P6:rep03:regulated",
+            "P8:rep01:regulated",
+            "P8:rep02:baseline",
+            "P8:rep03:baseline",
+            "P9:rep02:regulated",
+            "P9:rep03:baseline",
+            "P9:rep03:regulated",
+            "S2:T02:baseline",
+            "S2:T03:baseline",
+            "S2:T04:regulated",
+            "S2:T05:regulated",
+            "S2:T06:baseline",
+            "S2:T06:regulated",
+            "S2:T07:baseline",
+            "S2:T07:regulated",
+            "S2:T08:baseline",
+            "S2:T09:baseline",
+            "S2:T10:regulated",
+            "S3:T04:baseline",
+            "S3:T05:baseline",
+            "S3:T05:regulated",
+            "S3:T07:regulated",
+            "S3:T08:baseline",
+            "S3:T09:baseline",
+            "S4:T02:regulated",
+            "S4:T06:baseline",
+            "S4:T07:baseline",
+            "S4:T07:regulated",
+            "S4:T09:baseline",
+            "S4:T10:baseline",
+            "S4:T10:regulated",
+            "S5:T04:baseline",
+            "S5:T04:regulated",
+            "S5:T07:regulated",
+            "S5:T10:regulated"
+          ]
+        }
+      }
+    },
+    "Grok": {
+      "panel": ".tmp\\runs\\panel_tri_cookGrok.json",
+      "judges": {
+        "openai": "gpt-5.5-2026-04-23",
+        "claude": "claude-opus-4-8",
+        "gemini": "gemini-3.5-flash",
+        "xai": "grok-4.3"
+      },
+      "config": {
+        "n_runs": 3,
+        "judge_temperature": 0.0
+      },
+      "diagonal_backend": "xai",
+      "cells": {
+        "claude": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.529,
+              "sd": 0.59,
+              "se": 0.143,
+              "t": 3.7,
+              "n": 17,
+              "reg_wins": 12,
+              "ties": 4,
+              "base_wins": 1
+            },
+            "self_reference": {
+              "mean": 0.412,
+              "sd": 0.479,
+              "se": 0.116,
+              "t": 3.54,
+              "n": 17,
+              "reg_wins": 10,
+              "ties": 7,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.04,
+              "base_mean": 1.42,
+              "diff": 0.38,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.26,
+              "base_mean": 1.58,
+              "diff": 0.32,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "claude-opus-4-8"
+        },
+        "gemini": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.588,
+              "sd": 0.572,
+              "se": 0.139,
+              "t": 4.24,
+              "n": 17,
+              "reg_wins": 12,
+              "ties": 4,
+              "base_wins": 1
+            },
+            "self_reference": {
+              "mean": 0.608,
+              "sd": 0.543,
+              "se": 0.132,
+              "t": 4.61,
+              "n": 17,
+              "reg_wins": 12,
+              "ties": 5,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.06,
+              "base_mean": 1.32,
+              "diff": 0.26,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.14,
+              "base_mean": 1.44,
+              "diff": 0.3,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        "openai": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.529,
+              "sd": 0.514,
+              "se": 0.125,
+              "t": 4.24,
+              "n": 17,
+              "reg_wins": 11,
+              "ties": 5,
+              "base_wins": 1
+            },
+            "self_reference": {
+              "mean": 0.471,
+              "sd": 0.566,
+              "se": 0.137,
+              "t": 3.43,
+              "n": 17,
+              "reg_wins": 9,
+              "ties": 7,
+              "base_wins": 1
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.3,
+              "base_mean": 1.68,
+              "diff": 0.38,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.3,
+              "base_mean": 1.74,
+              "diff": 0.44,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": false,
+          "judge_model": "gpt-5.5-2026-04-23"
+        },
+        "xai": {
+          "eval": {
+            "reactivity": {
+              "mean": 0.235,
+              "sd": 0.328,
+              "se": 0.08,
+              "t": 2.95,
+              "n": 17,
+              "reg_wins": 7,
+              "ties": 10,
+              "base_wins": 0
+            },
+            "self_reference": {
+              "mean": 0.216,
+              "sd": 0.31,
+              "se": 0.075,
+              "t": 2.86,
+              "n": 17,
+              "reg_wins": 7,
+              "ties": 10,
+              "base_wins": 0
+            }
+          },
+          "endurance": {
+            "reactivity": {
+              "reg_mean": 1.02,
+              "base_mean": 1.14,
+              "diff": 0.12,
+              "n_turns_per_arm": 50
+            },
+            "self_reference": {
+              "reg_mean": 1.06,
+              "base_mean": 1.34,
+              "diff": 0.28,
+              "n_turns_per_arm": 50
+            }
+          },
+          "cell_pass_react": true,
+          "diagonal": true,
+          "judge_model": "grok-4.3"
+        }
+      },
+      "judges_avg": {
+        "eval": {
+          "reactivity": {
+            "mean": 0.471,
+            "sd": 0.438,
+            "se": 0.106,
+            "t": 4.43,
+            "n": 17,
+            "reg_wins": 12,
+            "ties": 5,
+            "base_wins": 0
+          },
+          "self_reference": {
+            "mean": 0.426,
+            "sd": 0.401,
+            "se": 0.097,
+            "t": 4.39,
+            "n": 17,
+            "reg_wins": 13,
+            "ties": 4,
+            "base_wins": 0
+          }
+        },
+        "endurance": {
+          "reactivity": {
+            "reg_mean": 1.105,
+            "base_mean": 1.39,
+            "diff": 0.285,
+            "n_turns_per_arm": 50
+          },
+          "self_reference": {
+            "reg_mean": 1.19,
+            "base_mean": 1.525,
+            "diff": 0.335,
+            "n_turns_per_arm": 50
+          }
+        },
+        "cell_pass_react": true
+      },
+      "recovery_c3": {
+        "pass_output_calm": true,
+        "de_esc_panel_median_react": {
+          "S4:T08": 1.0,
+          "S4:T09": 1.0,
+          "S4:T10": 1.0,
+          "S5:T08": 1.0,
+          "S5:T09": 1.0,
+          "S5:T10": 1.0
+        }
+      },
+      "s3_drift_c4": {
+        "claude": {
+          "regulated": {
+            "early": 1,
+            "late": 1.333,
+            "drift": 0.333
+          },
+          "baseline": {
+            "early": 1,
+            "late": 1.333,
+            "drift": 0.333
+          }
+        },
+        "gemini": {
+          "regulated": {
+            "early": 1,
+            "late": 1,
+            "drift": 0
+          },
+          "baseline": {
+            "early": 1,
+            "late": 1.667,
+            "drift": 0.667
+          }
+        },
+        "openai": {
+          "regulated": {
+            "early": 1,
+            "late": 1.667,
+            "drift": 0.667
+          },
+          "baseline": {
+            "early": 1,
+            "late": 2,
+            "drift": 1
+          }
+        },
+        "xai": {
+          "regulated": {
+            "early": 1,
+            "late": 1,
+            "drift": 0
+          },
+          "baseline": {
+            "early": 1,
+            "late": 1.333,
+            "drift": 0.333
+          }
+        },
+        "judges_avg": {
+          "regulated": {
+            "early": 1,
+            "late": 1.25,
+            "drift": 0.25
+          },
+          "baseline": {
+            "early": 1,
+            "late": 1.583,
+            "drift": 0.583
+          }
+        }
+      },
+      "agreement_c5": {
+        "reactivity": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 89.6,
+              "within_1": 100.0,
+              "pearson_r": 0.858
+            },
+            "claude~openai": {
+              "exact": 76.7,
+              "within_1": 95.0,
+              "pearson_r": 0.63
+            },
+            "claude~xai": {
+              "exact": 80.7,
+              "within_1": 97.5,
+              "pearson_r": 0.616
+            },
+            "gemini~openai": {
+              "exact": 79.7,
+              "within_1": 93.6,
+              "pearson_r": 0.618
+            },
+            "gemini~xai": {
+              "exact": 82.2,
+              "within_1": 97.5,
+              "pearson_r": 0.655
+            },
+            "openai~xai": {
+              "exact": 70.8,
+              "within_1": 87.1,
+              "pearson_r": 0.327
+            }
+          },
+          "mean_unit_stdev": 0.23,
+          "n_flagged_ge2": 30,
+          "flagged_units": [
+            "E1:rep01:baseline",
+            "E1:rep02:baseline",
+            "E2:rep01:baseline",
+            "E2:rep01:regulated",
+            "E2:rep02:baseline",
+            "E2:rep02:regulated",
+            "E2:rep03:baseline",
+            "E2:rep03:regulated",
+            "P10:rep03:regulated",
+            "P11:rep03:baseline",
+            "P6:rep02:baseline",
+            "P7:rep02:baseline",
+            "P8:rep02:baseline",
+            "S1:T06:baseline",
+            "S1:T09:baseline",
+            "S2:T04:baseline",
+            "S2:T04:regulated",
+            "S2:T05:regulated",
+            "S3:T06:baseline",
+            "S3:T07:baseline",
+            "S3:T07:regulated",
+            "S3:T10:baseline",
+            "S3:T10:regulated",
+            "S4:T04:baseline",
+            "S4:T05:regulated",
+            "S4:T06:baseline",
+            "S4:T07:baseline",
+            "S5:T05:regulated",
+            "S5:T07:baseline",
+            "S5:T10:baseline"
+          ]
+        },
+        "self_reference": {
+          "pairs": {
+            "claude~gemini": {
+              "exact": 82.2,
+              "within_1": 99.5,
+              "pearson_r": 0.68
+            },
+            "claude~openai": {
+              "exact": 78.2,
+              "within_1": 99.5,
+              "pearson_r": 0.746
+            },
+            "claude~xai": {
+              "exact": 79.7,
+              "within_1": 99.5,
+              "pearson_r": 0.574
+            },
+            "gemini~openai": {
+              "exact": 76.2,
+              "within_1": 97.0,
+              "pearson_r": 0.628
+            },
+            "gemini~xai": {
+              "exact": 76.7,
+              "within_1": 99.0,
+              "pearson_r": 0.544
+            },
+            "openai~xai": {
+              "exact": 75.7,
+              "within_1": 93.1,
+              "pearson_r": 0.482
+            }
+          },
+          "mean_unit_stdev": 0.219,
+          "n_flagged_ge2": 17,
+          "flagged_units": [
+            "E1:rep02:baseline",
+            "E2:rep02:baseline",
+            "E2:rep03:baseline",
+            "P3:rep03:baseline",
+            "P7:rep01:baseline",
+            "P8:rep02:baseline",
+            "S2:T05:regulated",
+            "S3:T04:baseline",
+            "S3:T06:baseline",
+            "S3:T07:baseline",
+            "S3:T10:baseline",
+            "S3:T10:regulated",
+            "S4:T04:baseline",
+            "S4:T05:regulated",
+            "S4:T06:baseline",
+            "S5:T05:regulated",
+            "S5:T10:baseline"
+          ]
+        }
+      }
+    }
+  },
+  "headline": {
+    "cells_pass": 15,
+    "cells_total": 16,
+    "offdiag_pass": 11,
+    "offdiag_total": 12,
+    "diag_pass": 4,
+    "diag_total": 4,
+    "strong_pass_t2_by_cook": {
+      "GPT": false,
+      "Opus": true,
+      "Gemini": true,
+      "Grok": true
+    },
+    "failed_cells": [
+      "GPTxgemini"
+    ]
+  }
+}
