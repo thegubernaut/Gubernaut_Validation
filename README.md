@@ -91,25 +91,6 @@ behavioral improvement on **Social cognition** stressors (gaslighting, ego-bait,
 de-escalation). It makes no capability claims on the other faculties, which are
 inherited from the host model. Full scorecard: `docs/taxonomy_scorecard.md`.
 
-## Design provenance
-
-The architecture is an engineering rendering of the *Antahkarana* ("inner
-instrument") model of yogic/Vedantic psychology, with the controller objective
-drawn from its guna framework. This table is the project's single
-acknowledgment of that source; all other public material uses the engineering terms.
-
-| Engineering term | Source-model term | Source function |
-|---|---|---|
-| Impulse Generation Layer (IGL) | Mann (manas) | sensory-emotional mind; feels, reacts |
-| Executive Arbitration Unit (EAU) | Buddhi | discrimination (*viveka*); value-laden judgment |
-| Persistent Episodic Vault (PEV) | Chitta | impression store; spontaneous associations |
-| Self-Model Module (SMM) | Ahamkara | the "I-maker"; identity, regulated down |
-| HRL state: equilibrium / arousal / perseveration | sattva / rajas / tamas | the three gunas — a global mode, not a faculty |
-
-The source tradition itself draws the boundary we keep: everything buildable here
-is mechanism (*prakriti*); the witness (*purusha*) is explicitly not — hence no
-consciousness claims, by design.
-
 ## Repository status
 
 - **V1 is frozen and validated** (tag `v1.3-freeze`); its logs, pre-registrations, and results documents ship **verbatim** under the legacy nomenclature — frozen records are never rewritten. `NOMENCLATURE.md` maps legacy ⇄ current terms and log keys.

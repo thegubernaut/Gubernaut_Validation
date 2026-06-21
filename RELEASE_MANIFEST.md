@@ -33,7 +33,7 @@ moves to public without this manifest being honored.
 | `human_validation/`, `tools/build_human_sheet.py`, `tools/analyze_human.py` | the human rating sheet + builder reproduce the held-out judge-rubric anchors verbatim — same reason as `judge_rubric.md` |
 | `prototype.py` | early monolith; contains prompt material |
 | `CLAUDE.md`, `docs/LOG.md`, `docs/project_goal.md`, `docs/cowork_state/` | internal agent/process docs |
-| `docs/architecture.md` | historical source concept note (yogic framing throughout); publicly superseded by `system_overview.md` + the single provenance table |
+| `docs/architecture.md` | historical source-concept note; superseded publicly by `system_overview.md` |
 | `.env` | never leaves the original machine; not even in this repo |
 
 ## REVIEW before any push (default private until cleared)

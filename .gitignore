@@ -3,7 +3,7 @@
 
 # Runtime data
 .tmp/
-chitta_memory.json
+episodic_memory.json
 
 # Python
 __pycache__/
