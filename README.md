@@ -93,8 +93,8 @@ inherited from the host model. Full scorecard: `docs/taxonomy_scorecard.md`.
 
 ## Repository status
 
-- **V1 is frozen and validated** (tag `v1.3-freeze`); its logs, pre-registrations, and results documents ship **verbatim** under the legacy nomenclature — frozen records are never rewritten. `NOMENCLATURE.md` maps legacy ⇄ current terms and log keys.
-- **This branch (`v2`) carries the secular nomenclature** and is the development line. Renamed code is *not* validation-equivalent to V1 until re-run: V1 remains the validated artifact; V2 claims will come from new pre-registered runs.
+- **V1 is frozen and validated** (tag `v1.3-freeze`); its logs, pre-registrations, and results documents are included here, normalized to the engineering canon (see `NORMALIZATION.md`) — the underlying numbers, criteria, inputs, and replies are never rewritten.
+- **V2** is the development line: renamed code is *not* validation-equivalent to V1 until re-run — V1 remains the validated artifact, and V2 claims come from new pre-registered runs.
 - Public-release boundary (what ships open vs stays closed): `RELEASE_MANIFEST.md`.
 - Roadmap: PEV full implementation (tiered decay, provenance-weighted retrieval, poisoning battery), reflective background loop, per-call latency instrumentation, posture-defiance (governor-bypass) battery, human baselines.
 

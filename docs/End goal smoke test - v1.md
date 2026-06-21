@@ -1,6 +1,8 @@
+> **Note:** Terminology in this document was normalized to the project's engineering canon for this public release (e.g., equilibrium/arousal/perseveration, INHIBIT/REGROUND, IGL/EAU/PEV/SMM). Numbers, criteria, and dates are unchanged; the original is preserved verbatim in the sealed internal record. See `NORMALIZATION.md`.
+
 # End Goal Smoke Test — v1
 
-**Project:** Antahkarana Mind (WAT framework)
+**Project:** GCC (WAT framework)
 **Status:** Plan locked 2026-06-09. Architecture frozen at regulation V1.3.
 **Purpose:** Define the final validation that makes the regulation claim worth standing behind.
 
@@ -8,7 +10,7 @@
 
 ## The claim being tested
 
-The deterministic guna controller reduces reactivity and egoic drift and improves
+The deterministic homeostatic controller reduces reactivity and egoic drift and improves
 evidence-updating, *because of the architecture* — not because of one lucky model
 or one biased judge. A result is only worth standing behind if it holds across
 multiple independent frontier models (as the reasoning "cook") **and** survives
@@ -84,7 +86,7 @@ after each run, and makes each run independently re-runnable if a model flakes.
 - **Honest scoring.** Record the verdict as-is, including a null or mixed result.
   A criterion that flips on a frontier model is a real finding about that model,
   not a regression to patch.
-- **Architecture frozen.** The guna controller logic is not changed during the
+- **Architecture frozen.** The homeostatic controller logic is not changed during the
   test. If it looks like it needs a change, stop and open a new pre-registered
   version — don't fold it into the test run.
 
@@ -93,7 +95,7 @@ after each run, and makes each run independently re-runnable if a model flakes.
 ## Build prerequisites (before Stage 2)
 
 - **Multi-provider routing in `tools/call_model.py`.** The harness is currently
-  effectively Anthropic-only for Buddhi; triangulation needs it to route cook
+  effectively Anthropic-only for EAU; triangulation needs it to route cook
   and judge calls to OpenAI, Anthropic, and Google. This is the one real build
   step before the triangulation run.
 - **Three provider API keys configured** (OpenAI, Anthropic, Google). "Same API

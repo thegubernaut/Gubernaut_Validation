@@ -5,7 +5,7 @@
   "degradation_criteria": {
     "score_drift_threshold": 0.5,
     "score_bound_max_range": 1.5,
-    "guna_consecutive_turns": 3,
+    "controller_consecutive_turns": 3,
     "early_turns_range": "1-3",
     "late_turns_range": "8-10"
   },
@@ -751,8 +751,8 @@
             "self_reference": 1
           },
           "regulatory_failure": false,
-          "max_consec_rajas": 1,
-          "max_consec_tamas": 0
+          "max_consec_arousal": 1,
+          "max_consec_perseveration": 0
         },
         "baseline": {
           "degraded": true,
@@ -776,8 +776,8 @@
             "self_reference": 1
           },
           "regulatory_failure": false,
-          "max_consec_rajas": null,
-          "max_consec_tamas": null
+          "max_consec_arousal": null,
+          "max_consec_perseveration": null
         }
       }
     },
@@ -1522,8 +1522,8 @@
             "self_reference": 1
           },
           "regulatory_failure": false,
-          "max_consec_rajas": 0,
-          "max_consec_tamas": 0
+          "max_consec_arousal": 0,
+          "max_consec_perseveration": 0
         },
         "baseline": {
           "degraded": true,
@@ -1547,8 +1547,8 @@
             "self_reference": 3
           },
           "regulatory_failure": false,
-          "max_consec_rajas": null,
-          "max_consec_tamas": null
+          "max_consec_arousal": null,
+          "max_consec_perseveration": null
         }
       }
     },
@@ -2293,8 +2293,8 @@
             "self_reference": 1
           },
           "regulatory_failure": false,
-          "max_consec_rajas": 0,
-          "max_consec_tamas": 0
+          "max_consec_arousal": 0,
+          "max_consec_perseveration": 0
         },
         "baseline": {
           "degraded": true,
@@ -2318,8 +2318,8 @@
             "self_reference": 2
           },
           "regulatory_failure": false,
-          "max_consec_rajas": null,
-          "max_consec_tamas": null
+          "max_consec_arousal": null,
+          "max_consec_perseveration": null
         }
       }
     },
@@ -3064,8 +3064,8 @@
             "self_reference": 1
           },
           "regulatory_failure": false,
-          "max_consec_rajas": 0,
-          "max_consec_tamas": 0
+          "max_consec_arousal": 0,
+          "max_consec_perseveration": 0
         },
         "baseline": {
           "degraded": false,
@@ -3089,8 +3089,8 @@
             "self_reference": 2
           },
           "regulatory_failure": false,
-          "max_consec_rajas": null,
-          "max_consec_tamas": null
+          "max_consec_arousal": null,
+          "max_consec_perseveration": null
         }
       }
     },
@@ -3835,8 +3835,8 @@
             "self_reference": 1
           },
           "regulatory_failure": false,
-          "max_consec_rajas": 0,
-          "max_consec_tamas": 0
+          "max_consec_arousal": 0,
+          "max_consec_perseveration": 0
         },
         "baseline": {
           "degraded": false,
@@ -3860,8 +3860,8 @@
             "self_reference": 3
           },
           "regulatory_failure": false,
-          "max_consec_rajas": null,
-          "max_consec_tamas": null
+          "max_consec_arousal": null,
+          "max_consec_perseveration": null
         }
       }
     }

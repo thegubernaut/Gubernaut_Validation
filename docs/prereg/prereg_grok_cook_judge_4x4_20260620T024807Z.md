@@ -1,3 +1,5 @@
+> **Note:** Terminology in this document was normalized to the project's engineering canon for this public release (e.g., equilibrium/arousal/perseveration, INHIBIT/REGROUND, IGL/EAU/PEV/SMM). Numbers, criteria, and dates are unchanged; the original is preserved verbatim in the sealed internal record. See `NORMALIZATION.md`.
+
 # Pre-Registration — Grok as Cook AND Judge (full 4×4 triangulation)
 
 **Drafted:** 2026-06-20T02:48:07Z

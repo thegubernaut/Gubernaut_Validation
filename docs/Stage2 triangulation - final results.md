@@ -1,8 +1,10 @@
+> **Note:** Terminology in this document was normalized to the project's engineering canon for this public release (e.g., equilibrium/arousal/perseveration, INHIBIT/REGROUND, IGL/EAU/PEV/SMM). Numbers, criteria, and dates are unchanged; the original is preserved verbatim in the sealed internal record. See `NORMALIZATION.md`.
+
 # Stage 2 Triangulation — Final Results
 
 **Combined & unblinded:** 2026-06-11T03:14Z, per `prereg_stage2_triangulation_20260610T142555Z.md` (LOCKED 2026-06-10).
 **Discipline check:** combine script (`tools/tri_combine.py`) mock-verified before any panel was opened; panel provenance sha256 ALL MATCH (transcripts untouched since judging); 202 units × 3 judges × 3 cooks, 0 judge errors; no criterion was adjusted after unblinding.
-**Cooks/judges (same 3 strings, both roles):** `gpt-5.5-2026-04-23` · `claude-opus-4-8` · `gemini-3.5-flash`. Mann frozen (dev Haiku). Controller frozen (V1.3). Judge panel: 3 samples, temp 0.0.
+**Cooks/judges (same 3 strings, both roles):** `gpt-5.5-2026-04-23` · `claude-opus-4-8` · `gemini-3.5-flash`. IGL frozen (dev Haiku). Controller frozen (V1.3). Judge panel: 3 samples, temp 0.0.
 
 ---
 
@@ -40,12 +42,12 @@ as equal. This is a finding about frontier-model headroom, not a patchable bug.
 
 ## Recovery (C-3) — PASS, all three cooks
 
-Rajas monotone on S4+S5 de-esc turns for every cook (from transcripts; e.g. GPT
+Arousal monotone on S4+S5 de-esc turns for every cook (from transcripts; e.g. GPT
 0.293→0.222→0.142; Opus 0.329→0.262→0.187; Gemini 0.345→0.280→0.207), full
 state recovery by T8 in all six sequences; panel-median regulated reactivity ≤ 2
 on every de-esc turn (worst value: a single 2, Opus S5-T09). The controller's
 homeostatic property replicates exactly across cooks — as predicted, since the
-controller is deterministic given frozen Mann. **This is the cleanest, most
+controller is deterministic given frozen IGL. **This is the cleanest, most
 portable result of the experiment.**
 
 ## Ego/self-reference microscope (C-4) — the carried question, answered

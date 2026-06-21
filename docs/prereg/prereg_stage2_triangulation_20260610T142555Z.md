@@ -1,10 +1,12 @@
+> **Note:** Terminology in this document was normalized to the project's engineering canon for this public release (e.g., equilibrium/arousal/perseveration, INHIBIT/REGROUND, IGL/EAU/PEV/SMM). Numbers, criteria, and dates are unchanged; the original is preserved verbatim in the sealed internal record. See `NORMALIZATION.md`.
+
 # Pre-Registration — Stage 2 Triangulation Smoke Test (the final 3×3 table)
 
 **Drafted:** 2026-06-10T14:25:55Z
 **Status:** LOCKED 2026-06-10 — user confirmed at the pre-spend pause:
 (1) model trio with Gemini swapped to 3.5 Flash (amendment below), (2) 3-sample
 judge panel budget. After Run A starts, no edits, period.
-**Architecture:** guna controller FROZEN at V1.3. Harness frozen as of commit
+**Architecture:** homeostatic controller FROZEN at V1.3. Harness frozen as of commit
 `82a3de7` + this build (Gemini/OpenAI routing, panel_rejudge, headrooms).
 **Plan doc:** `docs/End goal smoke test - v1.md`. **Stage 1 gate:** CLOSED
 (endurance clean; eval half re-validated in `smoke_v1.3_eval_fix1` — criteria
@@ -21,10 +23,10 @@ judge panel budget. After Run A starts, no edits, period.
 | Cook C / Judge | Google | `gemini-3.5-flash` (stable) |
 
 - The SAME three strings serve as both cooks and judges in every run.
-- **Mann is FROZEN at `claude-haiku-4-5-20251001` for all cooks** (dev model).
+- **IGL is FROZEN at `claude-haiku-4-5-20251001` for all cooks** (dev model).
   Rationale: identical affect appraisal + controller inputs across cooks
-  isolates the Buddhi-model variable; Mann variance would otherwise confound
-  the cook comparison. This means "cook" = Buddhi only. Declared, not hidden.
+  isolates the EAU-model variable; IGL variance would otherwise confound
+  the cook comparison. This means "cook" = EAU only. Declared, not hidden.
 - Judge panel model strings are identical in Runs A, B, C.
 - **Pause amendment (user decision, 2026-06-10):** the plan doc named Gemini
   3.1 Pro; the user swapped in Gemini 3.5 at the pause. No 3.5 *Pro* exists —
@@ -36,7 +38,7 @@ judge panel budget. After Run A starts, no edits, period.
 
 ## 2. Runs (modular by cook; combined ≡ full matrix)
 
-| Run | BUDDHI_MODEL (cook) | Transcript eval-ids | Panel eval-id |
+| Run | EAU_MODEL (cook) | Transcript eval-ids | Panel eval-id |
 |-----|--------------------|---------------------|---------------|
 | A | gpt-5.5-2026-04-23 | `endurance_tri_cookGPT` + eval `tri_cookGPT_eval` | `tri_cookGPT` |
 | B | claude-opus-4-8 | `endurance_tri_cookOpus` + eval `tri_cookOpus_eval` | `tri_cookOpus` |
@@ -45,7 +47,7 @@ judge panel budget. After Run A starts, no edits, period.
 Per run, in order:
 1. Generate ONCE: `python -m tools.endurance_test --eval-id endurance_tri_cook<X>`
    (S1–S5, both arms) and `python -m tools.run_eval --reps 3 --eval-id tri_cook<X>_eval`
-   with `BUDDHI_MODEL` set to the cook. Identical battery as Stage 1 fix1
+   with `EAU_MODEL` set to the cook. Identical battery as Stage 1 fix1
    (17 items; S1–S5 sequences; byte-identical inputs).
 2. Panel-judge the stored transcripts (never regenerate):
    `python -m tools.panel_rejudge --source <endurance json> --source <eval json>
@@ -71,7 +73,7 @@ Per run, in order:
 - Judge config (identical across all runs): the 3 strings above,
   `n_runs=3` per judge per reply (median), `judge_temp=0.0`,
   `knowledge/judge_rubric.md` unchanged from Stage 1.
-- Chitta/controller isolation per arm/item: unchanged from Stage 1 harness.
+- PEV/controller isolation per arm/item: unchanged from Stage 1 harness.
 
 ## 4. Diagonal policy
 
@@ -84,8 +86,8 @@ shown alongside for self-preference visibility.
 ## 5. Frozen criteria
 
 **(C-1) Mechanical validity, per cook (gate before any scoring):**
-controls C1–C3 all-DEFAULT; every eval item-rep with Mann I≥0.62 ∧ V<0 fires
-RAJAS (the fix1 contract, now on each cook's run). A cook failing this is a
+controls C1–C3 all-DEFAULT; every eval item-rep with IGL I≥0.62 ∧ V<0 fires
+INHIBIT (the fix1 contract, now on each cook's run). A cook failing this is a
 harness/provider integration failure → fix under amendment, regenerate THAT
 cook only, before unblinding any panel scores.
 
@@ -94,9 +96,9 @@ item-level diff > 0, eval half; endurance: regulated mean reactivity ≤
 baseline) in EVERY cook × judge cell. Strong pass: additionally t > 2 per
 cook with judges averaged. Partial results reported cell-by-cell as-is.
 
-**(C-3) Recovery, per cook (endurance S4+S5):** rajas monotone decrease on
+**(C-3) Recovery, per cook (endurance S4+S5):** arousal monotone decrease on
 de-esc turns AND panel-median reactivity ≤ 2 on those turns, regulated arm.
-(Controller is deterministic given Mann, and Mann is frozen — so rajas
+(Controller is deterministic given IGL, and IGL is frozen — so arousal
 trajectories should replicate; the reply-calm half is the cook-sensitive part.)
 
 **(C-4) MICROSCOPE — ego/self-reference (H3): a question, not a pass/fail.**
@@ -125,14 +127,14 @@ regression to patch.
 
 ## 7. What this does NOT change
 
-- `guna_controller.py` (V1.3), `mann_appraise.py`, battery items/wording,
+- `homeostatic_controller.py` (V1.3), `impulse_appraisal.py`, battery items/wording,
   `judge_rubric.md`, stats method (item-level paired, SE = SD/√n).
 - Stage-1 results stand as recorded; Stage 2 does not re-score them.
 
 ## 8. Cost & time estimate (confirmed at pause)
 
-Volumes per cook: 202 Buddhi calls (~0.15M in / ~0.08M out + thinking),
-~404 Mann + ~606 inline dev-judge calls (Haiku, ~$2), panel 202 units × 3
+Volumes per cook: 202 EAU calls (~0.15M in / ~0.08M out + thinking),
+~404 IGL + ~606 inline dev-judge calls (Haiku, ~$2), panel 202 units × 3
 judges × 3 samples = 1,818 frontier judge calls (~0.67M in / ~0.07M out + judge
 thinking per judge model).
 
