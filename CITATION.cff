@@ -3,7 +3,6 @@ message: "If you use this evidence release, please cite it as below."
 title: "Gubernaut Cognitive Controller — Evidence & Verification Release (4x4 + frozen 3x3)"
 authors:
   - name: "Gubernaut Research"
-    city: "Toronto"
 year: 2026
 license: CC-BY-4.0
 abstract: >-
@@ -11,6 +10,8 @@ abstract: >-
   deterministic runtime control layer for LLMs. Four frontier models
   (GPT-5.5, Claude Opus 4.8, Gemini 3.5 Flash, Grok 4.3), each both generator
   and judge, form a symmetric 4x4 matrix: regulated output beats baseline in
-  15/16 cells (11/12 off-diagonal, 4/4 diagonal), anchored on the frozen
-  three-model 3x3 (8/9). Transcripts, judge panels (sha256), and the combine
-  script are published so the result is independently re-computable.
+  15/16 cells (11/12 off-diagonal, 4/4 diagonal), with recovery replicating
+  4/4. The earlier three-model 3x3 was pre-registered and frozen before the
+  fourth family was added; adding it changed no earlier cell, and both ship
+  verbatim. Transcripts, judge panels (sha256), and the combine script are
+  published so the result is independently re-computable.

@@ -66,10 +66,11 @@ is the mechanism; the homeostatic recovery after de-escalation is its signature.
 Pre-registered, cross-family, generate-once / judge-many evaluation. Four frontier
 models (GPT-5.5, Claude Opus 4.8, Gemini 3.5 Flash, Grok 4.3), each serving as both
 generator and judge — a symmetric 4×4 matrix (16 cells), 202 judged units per
-generator, 3-sample judge panels at temperature 0. This strengthens, and is
-anchored on, the original frozen 3×3 (three models, 8/9 cells); both ship verbatim.
+generator, 3-sample judge panels at temperature 0. The earlier three-model 3×3 was
+pre-registered and frozen before the fourth family was added; adding it changed no
+earlier cell, and both matrices ship verbatim.
 
-- **Regulated beats baseline in 15/16 generator×judge cells (11/12 off-diagonal, 4/4 diagonal)** — anchored on the frozen three-model **8/9 (5/6 off-diagonal, 3/3 diagonal)**. The sole exception in both is the *same* null (GPT-5.5 × Gemini, −0.04), not a reversal, on the least-reactive generator. Adding Grok as a 4th generator (row 4/4) and a 4th independent judge family (xAI column 4/4) introduced no new failures.
+- **Regulated beats baseline in 15/16 generator×judge cells (11/12 off-diagonal, 4/4 diagonal).** The sole exception — the same null in both matrices (GPT-5.5 × Gemini, −0.04), not a reversal — sits on the least-reactive generator. Adding Grok as a 4th generator (row 4/4) and a 4th independent judge family (xAI column 4/4) introduced no new failures.
 - **The effect survives a fully independent 4th judge family (xAI)** — the central judge-independence claim — and **scales with the generator's reactivity headroom**: Gemini 3.5 Flash (most reactive baseline) +1.12…+1.80 across judges (t up to 8.2); Opus 4.8 +0.55…+0.67 (t ≥ 3.5); Grok 4.3 mid-range (judges-avg +0.47, t 4.4); GPT-5.5 ≈ +0.18 (already near-saturated calm).
 - **The recovery property replicates 4/4**: arousal decays monotonically on genuine de-escalation, output calm on every de-escalation turn, on every model family — as predicted for a deterministic controller.
 - **Self-reference suppression positive in 15/16 cells**; ego-drift under ego-bait reversed on 3/4 generators (Opus the single exception).
@@ -106,4 +107,4 @@ inherited from the host model. Full scorecard: `docs/taxonomy_scorecard.md`.
 
 To cite, see `CITATION.cff`. The white paper is forthcoming (`PAPER.md`).
 
-*Gubernaut Research, Toronto.*
+*Gubernaut Research.*
