@@ -28,8 +28,41 @@ whole point of the 4x4 (four judge families; the effect survives all of them).
 
     sha256sum -c SHA256SUMS        # from the repository root
 
+## 4. Regenerate the telemetry series and dampening tables
+
+    cd 02_data/scripts && python extract_series_4x4.py
+
+Rebuilds `02_data/tables/series_endurance_long_4x4.csv` and
+`dampening_summary_4x4.csv` from the published transcripts + panels. Verified at
+release time: the regenerated files are **byte-identical** to the shipped ones,
+i.e. the documented transcript redaction removed appended analysis only, never
+telemetry or evidence.
+
+## 5. Verify every figure value against the shipped record
+
+    cd 10_public_visuals/scripts && python verify_figure_numbers.py
+
+Asserts every value plotted in the paper's figures (and the staged figure assets
+in `10_public_visuals/A_whitepaper` + `B_website`) against `tri_final_4x4.json`,
+`tri_final.json`, `master_table_4x4.csv`, and the series CSV. Expected: ALL PASS
+(22 checks). The figures themselves regenerate via `make_paper_figures.py` /
+`make_web_figures.py`. Needs `matplotlib`, `numpy`, `pillow` (requirements.txt).
+
+## 6. Recompute the paper's §6.6 statistics sentences
+
+    cd 02_data/scripts && python stats_checks.py
+
+Reconstructs the 17 per-item paired differences per cell from the shipped judge
+panels, hard-validates them against the shipped cell summaries, then prints the
+Bonferroni (11/16 survive; marginals GPT×Opus and Grok×Grok) and Wilcoxon
+signed-rank (agrees with the paired t in 15/16 cells) results quoted in §6.6.
+Expected: ALL VALIDATIONS PASS. Needs `scipy`.
+
 ## Note on transcript provenance
 Per REDACTIONS.md, one withheld calibration constant was stripped from the public
 endurance transcripts, so their sha256 differs from the value recorded inside the
 panels' "sources" field. All inputs, replies, telemetry, panels, and combined
 matrices are otherwise intact; SHA256SUMS covers the published files as shipped.
+(The project's two internal-record verifiers, `verify_against_sealed*.py`, assert
+those pre-redaction hashes and therefore run only against the internal sealed
+record; the public equivalents are steps 1–6 above.)

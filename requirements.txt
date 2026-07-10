@@ -4,3 +4,7 @@ google-generativeai
 openai
 krippendorff
 scipy
+# figure regeneration + verification (10_public_visuals/)
+matplotlib
+numpy
+pillow
