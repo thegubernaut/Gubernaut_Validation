@@ -44,9 +44,11 @@ therefore scored on the **layer's contribution**, in four classes:
 
 The GCC is not an AGI system and claims no faculty coverage. It is a control layer
 that adds **measured metacognition and executive-function inhibition** to any host
-LLM — two of the five faculties the DeepMind paper identifies as having the widest
-evaluation gaps — plus behaviorally-evidenced improvement on social-cognition
-stressors, with memory and reflective planning as the pre-registered V2 path.
+LLM, plus behaviorally-evidenced improvement on social-cognition stressors, with
+memory and reflective planning as the pre-registered V2 path. Metacognition and
+social cognition sit inside the four areas the DeepMind paper's §4.1 flags as
+having large evaluation-coverage gaps; executive functions is a framework faculty
+but not a flagged gap.
 Its distinctive compliance with the paper's spirit is *evaluability*: deterministic
 meta-level, logged state, re-judgeable outputs, pre-registered criteria, and a
 published null cell.

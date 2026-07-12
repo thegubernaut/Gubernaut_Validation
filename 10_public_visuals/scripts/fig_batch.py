@@ -88,16 +88,19 @@ def bars(outdir,mode="paper"):
 
 # ---------------- A7: faculty radial (gap-fill design) ----------------
 def radial(outdir,mode="paper"):
-    """Layer contribution class per faculty; the five widest-gap faculties
-    (Burnell et al.) shaded as wedges. The polygon spikes into the shaded
-    gaps at metacognition + executive functions = the gap-fill story.
+    """Layer contribution class per faculty; the four areas Burnell et al.
+    flag ("such as", their 4.1) as evaluation-coverage gaps shaded as wedges:
+    metacognition, attention, learning, social cognition. One MEASURED spike
+    (metacognition) lands in a shaded gap; executive functions is measured
+    but is NOT a flagged gap (corrected 2026-07-12, checked against the
+    arXiv HTML of 2605.28405).
     Radius stays ORDINAL (contribution class), stated in-figure."""
     web=(mode!="paper")
     G.style(mode)
     fac=["Perception","Generation","Attention","Learning","Memory","Reasoning",
          "Metacognition","Executive\nfunctions","Problem\nsolving","Social\ncognition"]
     cls=[2,1,2,0,2,1,3,3,1,2]
-    gap=[0,0,1,1,0,0,1,1,0,1]
+    gap=[0,0,1,1,0,0,1,0,0,1]
     N=len(fac); ang=np.linspace(0,2*np.pi,N,endpoint=False)
     a=np.concatenate([ang,ang[:1]]); v=np.array(cls+cls[:1])
     if web:

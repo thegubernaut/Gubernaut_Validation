@@ -86,11 +86,13 @@ documented, pre-registered, and kept in the record — including the null cell.
 Mapped against Google DeepMind's cognitive taxonomy (Burnell et al., 2026,
 "Measuring Progress Toward AGI: A Cognitive Framework"): the GCC contributes
 measurable capability in **Metacognition** (monitoring + control of own
-processing) and **Executive functions** (inhibition, flexibility) — two of the
-five faculties DeepMind identifies as having the widest evaluation gaps — and
+processing) and **Executive functions** (inhibition, flexibility), plus
 behavioral improvement on **Social cognition** stressors (gaslighting, ego-bait,
-de-escalation). It makes no capability claims on the other faculties, which are
-inherited from the host model. Full scorecard: `docs/taxonomy_scorecard.md`.
+de-escalation). Metacognition and social cognition are two of the four areas the
+framework's §4.1 flags as having large evaluation-coverage gaps; executive
+functions is a framework faculty but not a flagged gap. The GCC makes no
+capability claims on the other faculties, which are inherited from the host
+model. Full scorecard: `docs/taxonomy_scorecard.md`.
 
 ## Repository status
 
