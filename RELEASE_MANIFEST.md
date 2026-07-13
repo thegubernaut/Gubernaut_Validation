@@ -16,7 +16,7 @@ moves to public without this manifest being honored.
 | `docs/Stage1 practice smoke - results review.md`, `docs/Stage2 triangulation - final results.md`, `docs/Stage3 grok 4x4 - final results.md`, `docs/End goal smoke test - v1.md` (canon-normalized) | frozen results record |
 | `tools/tri_combine.py` | combine/aggregation script — lets anyone rebuild the master table (3×3 **and** 4×4) from raw panels |
 | `02_data/scripts/` (`render_master_table*.py`, `RECOMPUTE.md`) | regenerate the published tables from sealed raw; `RECOMPUTE.md` shows how to rebuild the matrix from the shipped panels (`tri_combine.py`) and verify `SHA256SUMS`. The `verify_against_sealed*.py` gates stay **internal** (they validate the un-redacted sealed record). Audited free of prompts/thresholds. |
-| `requirements.txt`, `.env.example` (placeholders only), `.gitignore` | hygiene |
+| `requirements.txt`, `.gitignore` | hygiene (`.env.example` was dropped from the release — no env vars are needed to recompute) |
 | **Data** (from `E:\AMT\02_data\raw\` + `02_data\tables\`) | transcripts, judge panels (sha256), **`tri_final.json` (frozen 3×3) + `tri_final_4x4.json` (Grok 4×4)**, the four 4-judge panels + Grok transcripts, extracted CSVs (incl. `master_table_4x4.csv`, `agreement_c5_4x4.csv`), charts — the re-judgeable evidence for both matrices, with a top-level `SHA256SUMS` |
 
 ## PRIVATE (never in the public repo)

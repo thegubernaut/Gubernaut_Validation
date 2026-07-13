@@ -5,6 +5,16 @@ authors:
   - name: "Gubernaut Research"
 year: 2026
 license: CC-BY-4.0
+doi: 10.5281/zenodo.21303519
+url: "https://gubernaut.com"
+repository-code: "https://github.com/thegubernaut/Gubernaut_Validation"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21303518
+    description: "Concept DOI — resolves to the latest archived version"
+  - type: url
+    value: "https://gubernaut.com/paper/gubernaut_whitepaper.pdf"
+    description: "White paper (camera-ready PDF)"
 abstract: >-
   Pre-registered, cross-family, generate-once / judge-many evaluation of a
   deterministic runtime control layer for LLMs. Four frontier models

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="550.823375pt" height="413.28pt" viewBox="0 0 550.823375 413.28" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="550.523625pt" height="413.28pt" viewBox="0 0 550.523625 413.28" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-07-03T05:07:40.141211</dc:date>
+    <dc:date>2026-07-13T18:18:39.956707</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -22,8 +22,8 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 413.28 
-L 550.823375 413.28 
-L 550.823375 -0 
+L 550.523625 413.28 
+L 550.523625 -0 
 L 0 -0 
 z
 " style="fill: #f4f2ed"/>
@@ -35,7 +35,7 @@ L 186.12 152.372174
 L 186.12 91.554783 
 L 92.52 91.554783 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #f6fafc; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #f6fafc; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 186.12 152.372174 
@@ -43,7 +43,7 @@ L 279.72 152.372174
 L 279.72 91.554783 
 L 186.12 91.554783 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #fefaf8; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #fefaf8; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 279.72 152.372174 
@@ -51,7 +51,7 @@ L 373.32 152.372174
 L 373.32 91.554783 
 L 279.72 91.554783 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #f6fafc; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #f6fafc; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 373.32 152.372174 
@@ -59,7 +59,7 @@ L 466.92 152.372174
 L 466.92 91.554783 
 L 373.32 91.554783 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #fbfdfe; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #fbfdfe; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 92.52 213.189565 
@@ -67,7 +67,7 @@ L 186.12 213.189565
 L 186.12 152.372174 
 L 92.52 152.372174 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #e0eff7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #e0eff7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 186.12 213.189565 
@@ -75,7 +75,7 @@ L 279.72 213.189565
 L 279.72 152.372174 
 L 186.12 152.372174 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #dcedf6; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #dcedf6; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 279.72 213.189565 
@@ -83,7 +83,7 @@ L 373.32 213.189565
 L 373.32 152.372174 
 L 279.72 152.372174 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #dbecf5; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #dbecf5; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 373.32 213.189565 
@@ -91,7 +91,7 @@ L 466.92 213.189565
 L 466.92 152.372174 
 L 373.32 152.372174 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #e1f0f7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #e1f0f7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 92.52 274.006957 
@@ -99,7 +99,7 @@ L 186.12 274.006957
 L 186.12 213.189565 
 L 92.52 213.189565 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #0072b2; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #0072b2; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 186.12 274.006957 
@@ -107,7 +107,7 @@ L 279.72 274.006957
 L 279.72 213.189565 
 L 186.12 213.189565 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #137db8; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #137db8; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
     <path d="M 279.72 274.006957 
@@ -115,7 +115,7 @@ L 373.32 274.006957
 L 373.32 213.189565 
 L 279.72 213.189565 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #78b5d7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #78b5d7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 373.32 274.006957 
@@ -123,7 +123,7 @@ L 466.92 274.006957
 L 466.92 213.189565 
 L 373.32 213.189565 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #9cc9e2; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #9cc9e2; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
     <path d="M 92.52 334.824348 
@@ -131,7 +131,7 @@ L 186.12 334.824348
 L 186.12 274.006957 
 L 92.52 274.006957 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #e3f0f7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #e3f0f7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_15">
     <path d="M 186.12 334.824348 
@@ -139,7 +139,7 @@ L 279.72 334.824348
 L 279.72 274.006957 
 L 186.12 274.006957 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #e0eff7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #e0eff7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_16">
     <path d="M 279.72 334.824348 
@@ -147,7 +147,7 @@ L 373.32 334.824348
 L 373.32 274.006957 
 L 279.72 274.006957 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #e3f0f7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #e3f0f7; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_17">
     <path d="M 373.32 334.824348 
@@ -155,13 +155,13 @@ L 466.92 334.824348
 L 466.92 274.006957 
 L 373.32 274.006957 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: #f3f9fc; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: #f3f9fc; stroke: #ffffff; stroke-width: 2.2; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 600; font-size: 13.5px; font-family: 'IBM Plex Mono'; text-anchor: start; fill: #0e1116" x="22.32" y="26.883463" transform="rotate(-0 22.32 26.883463)">Triangulation matrix — 4×4</text>
+    <text style="font-weight: 600; font-size: 13.5px; font-family: 'IBM Plex Mono'; text-anchor: start; fill: #0e1116" x="22.32" y="27.032174" transform="rotate(-0 22.32 27.032174)">Triangulation matrix — 4×4</text>
    </g>
    <g id="text_2">
-    <text style="font-size: 9.3px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #005a8e" x="22.32" y="41.238489" transform="rotate(-0 22.32 41.238489)">Regulated beats baseline in 15 of 16 cells (11/12 off-diagonal · 4/4 self-judge) — frozen 3×3 anchor: 8/9.</text>
+    <text style="font-size: 9.3px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #005a8e" x="22.32" y="41.294435" transform="rotate(-0 22.32 41.294435)">Regulated beats baseline in 15 of 16 cells (11/12 off-diagonal · 4/4 self-judge) — frozen 3×3 (provenance): 8/9.</text>
    </g>
    <g id="patch_18">
     <path d="M 188.694 149.79913 
@@ -170,7 +170,7 @@ L 277.146 94.127826
 L 188.694 94.127826 
 L 188.694 149.79913 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: none; stroke: #0e1116; stroke-width: 1.6; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: none; stroke: #0e1116; stroke-width: 1.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_19">
     <path d="M 282.294 149.79913 
@@ -179,7 +179,7 @@ L 370.746 94.127826
 L 282.294 94.127826 
 L 282.294 149.79913 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #4a5260; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #4a5260; stroke-linejoin: miter"/>
    </g>
    <g id="patch_20">
     <path d="M 375.894 149.79913 
@@ -188,71 +188,71 @@ L 464.346 94.127826
 L 375.894 94.127826 
 L 375.894 149.79913 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #4a5260; stroke-linejoin: miter"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: none; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #4a5260; stroke-linejoin: miter"/>
    </g>
    <g id="text_3">
-    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="139.32" y="71.768662" transform="rotate(-0 139.32 71.768662)">Claude judge</text>
+    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="139.32" y="71.89913" transform="rotate(-0 139.32 71.89913)">Opus judge</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="83.170783" transform="rotate(-0 139.32 83.170783)">Opus 4.8</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="83.258783" transform="rotate(-0 139.32 83.258783)">Opus 4.8</text>
    </g>
    <g id="text_5">
-    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="232.92" y="71.768662" transform="rotate(-0 232.92 71.768662)">Gemini judge</text>
+    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="232.92" y="71.89913" transform="rotate(-0 232.92 71.89913)">Gemini judge</text>
    </g>
    <g id="text_6">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="83.170783" transform="rotate(-0 232.92 83.170783)">3.5 Flash</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="83.258783" transform="rotate(-0 232.92 83.258783)">3.5 Flash</text>
    </g>
    <g id="text_7">
-    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="326.52" y="71.768662" transform="rotate(-0 326.52 71.768662)">OpenAI judge</text>
+    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="326.52" y="71.89913" transform="rotate(-0 326.52 71.89913)">GPT judge</text>
    </g>
    <g id="text_8">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="83.170783" transform="rotate(-0 326.52 83.170783)">GPT-5.5</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="83.258783" transform="rotate(-0 326.52 83.258783)">GPT-5.5</text>
    </g>
    <g id="text_9">
-    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="420.12" y="71.768662" transform="rotate(-0 420.12 71.768662)">xAI judge</text>
+    <text style="font-weight: 600; font-size: 10px; font-family: 'IBM Plex Sans'; text-anchor: middle; fill: #0e1116" x="420.12" y="71.89913" transform="rotate(-0 420.12 71.89913)">Grok judge</text>
    </g>
    <g id="text_10">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="83.170783" transform="rotate(-0 420.12 83.170783)">Grok 4.3</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="83.258783" transform="rotate(-0 420.12 83.258783)">Grok 4.3</text>
    </g>
    <g id="text_11">
-    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="119.382391" transform="rotate(-0 85.5 119.382391)">GPT-5.5</text>
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="119.477391" transform="rotate(-0 85.5 119.477391)">GPT-5.5</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="131.32987" transform="rotate(-0 85.5 131.32987)">OpenAI cook</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="131.41687" transform="rotate(-0 85.5 131.41687)">cook</text>
    </g>
    <g id="text_13">
-    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="180.199783" transform="rotate(-0 85.5 180.199783)">Opus 4.8</text>
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="180.294783" transform="rotate(-0 85.5 180.294783)">Opus 4.8</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="192.147261" transform="rotate(-0 85.5 192.147261)">Claude cook</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="192.234261" transform="rotate(-0 85.5 192.234261)">cook</text>
    </g>
    <g id="text_15">
-    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="235.871087" transform="rotate(-0 85.5 235.871087)">Gemini</text>
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="235.966087" transform="rotate(-0 85.5 235.966087)">Gemini</text>
    </g>
    <g id="text_16">
-    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="246.163261" transform="rotate(-0 85.5 246.163261)">3.5 Flash</text>
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="246.258261" transform="rotate(-0 85.5 246.258261)">3.5 Flash</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="257.175087" transform="rotate(-0 85.5 257.175087)">Gemini cook</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="257.262087" transform="rotate(-0 85.5 257.262087)">cook</text>
    </g>
    <g id="text_18">
-    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="301.834565" transform="rotate(-0 85.5 301.834565)">Grok 4.3</text>
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #0e1116" x="85.5" y="301.929565" transform="rotate(-0 85.5 301.929565)">Grok 4.3</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="313.782043" transform="rotate(-0 85.5 313.782043)">xAI cook</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Sans'; text-anchor: end; fill: #4a5260" x="85.5" y="313.869043" transform="rotate(-0 85.5 313.869043)">cook</text>
    </g>
    <g id="text_20">
-    <text style="font-weight: 600; font-size: 9.2px; font-family: 'IBM Plex Sans'; fill: #0e1116" transform="translate(23.868 254.746971) rotate(-90)">GENERATOR (cook)</text>
+    <text style="font-weight: 600; font-size: 9.2px; font-family: 'IBM Plex Sans'; fill: #0e1116" transform="translate(23.96 254.314284) rotate(-90)">GENERATOR (cook)</text>
    </g>
    <g id="text_21">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="111.978696" transform="rotate(-0 139.32 111.978696)">+0.18</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="112.128696" transform="rotate(-0 139.32 112.128696)">+0.18</text>
    </g>
    <g id="text_22">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="128.055087" transform="rotate(-0 139.32 128.055087)">t +2.2 end +0.16</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="128.142087" transform="rotate(-0 139.32 128.142087)">t +2.2 end +0.16</text>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="mfa2a0e4833" d="M 0 2.54951 
+     <path id="mea8fedadb9" d="M 0 2.54951 
 C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
 C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
 C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
@@ -264,27 +264,27 @@ C -1.324674 2.280877 -0.676138 2.54951 0 2.54951
 z
 " style="stroke: #0e1116; stroke-width: 1.1"/>
     </defs>
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="124.0164" y="140.208696" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="124.0164" y="140.208696" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_23">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="144.702" y="142.584696" transform="rotate(-0 144.702 142.584696)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="144.702" y="142.672696" transform="rotate(-0 144.702 142.672696)">p&lt;.05</text>
    </g>
    <g id="text_24">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="111.978696" transform="rotate(-0 232.92 111.978696)">-0.04</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="112.128696" transform="rotate(-0 232.92 112.128696)">-0.04</text>
    </g>
    <g id="text_25">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="128.055087" transform="rotate(-0 232.92 128.055087)">t -0.4 end +0.14</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="128.142087" transform="rotate(-0 232.92 128.142087)">t -0.4 end +0.14</text>
    </g>
    <g id="text_26">
-    <text style="font-weight: 600; font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="142.584696" transform="rotate(-0 232.92 142.584696)">null (n.s.)</text>
+    <text style="font-weight: 600; font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="142.672696" transform="rotate(-0 232.92 142.672696)">null (n.s.)</text>
    </g>
    <g id="text_27">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="111.978696" transform="rotate(-0 326.52 111.978696)">+0.18</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="112.128696" transform="rotate(-0 326.52 112.128696)">+0.18</text>
    </g>
    <g id="text_28">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="128.055087" transform="rotate(-0 326.52 128.055087)">t +1.3 end +0.14</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="128.142087" transform="rotate(-0 326.52 128.142087)">t +1.3 end +0.14</text>
    </g>
    <g id="PathCollection_2">
     <path d="M 308.47392 142.758205 
@@ -298,29 +298,29 @@ C 305.92441 140.884834 306.193043 141.53337 306.671144 142.011471
 C 307.149246 142.489573 307.797782 142.758205 308.47392 142.758205 
 L 308.47392 142.758205 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: none; stroke: #0e1116; stroke-width: 1.1"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: none; stroke: #0e1116; stroke-width: 1.1"/>
    </g>
    <g id="text_29">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="142.584696" transform="rotate(-0 326.52 142.584696)">n.s.</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="142.672696" transform="rotate(-0 326.52 142.672696)">n.s.</text>
    </g>
    <g id="PathCollection_3">
     <defs>
-     <path id="md68264a3f9" d="M -0 3.464102 
+     <path id="m3f07ce7904" d="M 0 3.464102 
 L 3.464102 0 
 L 0 -3.464102 
-L -3.464102 -0 
+L -3.464102 0 
 z
 " style="stroke: #0e1116"/>
     </defs>
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#md68264a3f9" x="344.09808" y="140.208696" style="fill: #0e1116; stroke: #0e1116"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m3f07ce7904" x="344.09808" y="140.208696" style="fill: #0e1116; stroke: #0e1116"/>
     </g>
    </g>
    <g id="text_30">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="111.978696" transform="rotate(-0 420.12 111.978696)">+0.08</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="112.128696" transform="rotate(-0 420.12 112.128696)">+0.08</text>
    </g>
    <g id="text_31">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="128.055087" transform="rotate(-0 420.12 128.055087)">t +1.0 end +0.06</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="128.142087" transform="rotate(-0 420.12 128.142087)">t +1.0 end +0.06</text>
    </g>
    <g id="PathCollection_4">
     <path d="M 407.45592 142.758205 
@@ -334,81 +334,81 @@ C 404.90641 140.884834 405.175043 141.53337 405.653144 142.011471
 C 406.131246 142.489573 406.779782 142.758205 407.45592 142.758205 
 L 407.45592 142.758205 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: none; stroke: #0e1116; stroke-width: 1.1"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: none; stroke: #0e1116; stroke-width: 1.1"/>
    </g>
    <g id="text_32">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="425.502" y="142.584696" transform="rotate(-0 425.502 142.584696)">n.s.</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="425.502" y="142.672696" transform="rotate(-0 425.502 142.672696)">n.s.</text>
    </g>
    <g id="text_33">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="172.796087" transform="rotate(-0 139.32 172.796087)">+0.59</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="172.946087" transform="rotate(-0 139.32 172.946087)">+0.59</text>
    </g>
    <g id="text_34">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="188.872478" transform="rotate(-0 139.32 188.872478)">t +4.2 end +0.36</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="188.959478" transform="rotate(-0 139.32 188.959478)">t +4.2 end +0.36</text>
    </g>
    <g id="PathCollection_5">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="118.6344" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="118.6344" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_35">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="203.402087" transform="rotate(-0 139.32 203.402087)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="203.490087" transform="rotate(-0 139.32 203.490087)">p&lt;.05</text>
    </g>
    <g id="PathCollection_6">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#md68264a3f9" x="159.5376" y="201.026087" style="fill: #0e1116; stroke: #0e1116"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m3f07ce7904" x="159.5376" y="201.026087" style="fill: #0e1116; stroke: #0e1116"/>
     </g>
    </g>
    <g id="text_36">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="172.796087" transform="rotate(-0 232.92 172.796087)">+0.65</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="172.946087" transform="rotate(-0 232.92 172.946087)">+0.65</text>
    </g>
    <g id="text_37">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="188.872478" transform="rotate(-0 232.92 188.872478)">t +3.8 end +0.42</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="188.959478" transform="rotate(-0 232.92 188.959478)">t +3.8 end +0.42</text>
    </g>
    <g id="PathCollection_7">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="217.6164" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="217.6164" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_38">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="238.302" y="203.402087" transform="rotate(-0 238.302 203.402087)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="238.302" y="203.490087" transform="rotate(-0 238.302 203.490087)">p&lt;.05</text>
    </g>
    <g id="text_39">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="172.796087" transform="rotate(-0 326.52 172.796087)">+0.67</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="172.946087" transform="rotate(-0 326.52 172.946087)">+0.67</text>
    </g>
    <g id="text_40">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="188.872478" transform="rotate(-0 326.52 188.872478)">t +4.4 end +0.08</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="188.959478" transform="rotate(-0 326.52 188.959478)">t +4.4 end +0.08</text>
    </g>
    <g id="PathCollection_8">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="311.2164" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="311.2164" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_41">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="331.902" y="203.402087" transform="rotate(-0 331.902 203.402087)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="331.902" y="203.490087" transform="rotate(-0 331.902 203.490087)">p&lt;.05</text>
    </g>
    <g id="text_42">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="172.796087" transform="rotate(-0 420.12 172.796087)">+0.55</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="172.946087" transform="rotate(-0 420.12 172.946087)">+0.55</text>
    </g>
    <g id="text_43">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="188.872478" transform="rotate(-0 420.12 188.872478)">t +3.5 end +0.20</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="188.959478" transform="rotate(-0 420.12 188.959478)">t +3.5 end +0.20</text>
    </g>
    <g id="PathCollection_9">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="404.8164" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="404.8164" y="201.026087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_44">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="425.502" y="203.402087" transform="rotate(-0 425.502 203.402087)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="425.502" y="203.490087" transform="rotate(-0 425.502 203.490087)">p&lt;.05</text>
    </g>
    <g id="text_45">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="139.32" y="233.613478" transform="rotate(-0 139.32 233.613478)">+1.80</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="139.32" y="233.763478" transform="rotate(-0 139.32 233.763478)">+1.80</text>
    </g>
    <g id="text_46">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="139.32" y="249.68987" transform="rotate(-0 139.32 249.68987)">t +8.2 end +1.08</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="139.32" y="249.77687" transform="rotate(-0 139.32 249.77687)">t +8.2 end +1.08</text>
    </g>
    <g id="PathCollection_10">
     <defs>
-     <path id="m3db5dd6b93" d="M 0 2.54951 
+     <path id="m1d7bb3e77b" d="M 0 2.54951 
 C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
 C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
 C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
@@ -420,135 +420,135 @@ C -1.324674 2.280877 -0.676138 2.54951 0 2.54951
 z
 " style="stroke: #ffffff; stroke-width: 1.1"/>
     </defs>
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#m3db5dd6b93" x="124.0164" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m1d7bb3e77b" x="124.0164" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_47">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="144.702" y="264.219478" transform="rotate(-0 144.702 264.219478)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="144.702" y="264.307478" transform="rotate(-0 144.702 264.307478)">p&lt;.05</text>
    </g>
    <g id="text_48">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="232.92" y="233.613478" transform="rotate(-0 232.92 233.613478)">+1.71</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="232.92" y="233.763478" transform="rotate(-0 232.92 233.763478)">+1.71</text>
    </g>
    <g id="text_49">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="232.92" y="249.68987" transform="rotate(-0 232.92 249.68987)">t +7.7 end +0.84</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="232.92" y="249.77687" transform="rotate(-0 232.92 249.77687)">t +7.7 end +0.84</text>
    </g>
    <g id="PathCollection_11">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#m3db5dd6b93" x="212.2344" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m1d7bb3e77b" x="212.2344" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_50">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="232.92" y="264.219478" transform="rotate(-0 232.92 264.219478)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="232.92" y="264.307478" transform="rotate(-0 232.92 264.307478)">p&lt;.05</text>
    </g>
    <g id="PathCollection_12">
     <defs>
-     <path id="ma90714c8fa" d="M -0 3.464102 
+     <path id="mbd18ca81f0" d="M 0 3.464102 
 L 3.464102 0 
 L 0 -3.464102 
-L -3.464102 -0 
+L -3.464102 0 
 z
 " style="stroke: #ffffff"/>
     </defs>
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#ma90714c8fa" x="253.1376" y="261.843478" style="fill: #ffffff; stroke: #ffffff"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mbd18ca81f0" x="253.1376" y="261.843478" style="fill: #ffffff; stroke: #ffffff"/>
     </g>
    </g>
    <g id="text_51">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="326.52" y="233.613478" transform="rotate(-0 326.52 233.613478)">+1.27</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="326.52" y="233.763478" transform="rotate(-0 326.52 233.763478)">+1.27</text>
    </g>
    <g id="text_52">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="326.52" y="249.68987" transform="rotate(-0 326.52 249.68987)">t +6.3 end +0.90</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="326.52" y="249.77687" transform="rotate(-0 326.52 249.77687)">t +6.3 end +0.90</text>
    </g>
    <g id="PathCollection_13">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#m3db5dd6b93" x="311.2164" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m1d7bb3e77b" x="311.2164" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_53">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="331.902" y="264.219478" transform="rotate(-0 331.902 264.219478)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="331.902" y="264.307478" transform="rotate(-0 331.902 264.307478)">p&lt;.05</text>
    </g>
    <g id="text_54">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="420.12" y="233.613478" transform="rotate(-0 420.12 233.613478)">+1.12</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="420.12" y="233.763478" transform="rotate(-0 420.12 233.763478)">+1.12</text>
    </g>
    <g id="text_55">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="420.12" y="249.68987" transform="rotate(-0 420.12 249.68987)">t +5.0 end +0.70</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #e8eef4" x="420.12" y="249.77687" transform="rotate(-0 420.12 249.77687)">t +5.0 end +0.70</text>
    </g>
    <g id="PathCollection_14">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#m3db5dd6b93" x="404.8164" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m1d7bb3e77b" x="404.8164" y="261.843478" style="fill: #ffffff; stroke: #ffffff; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_56">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="425.502" y="264.219478" transform="rotate(-0 425.502 264.219478)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="425.502" y="264.307478" transform="rotate(-0 425.502 264.307478)">p&lt;.05</text>
    </g>
    <g id="text_57">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="294.43087" transform="rotate(-0 139.32 294.43087)">+0.53</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="139.32" y="294.58087" transform="rotate(-0 139.32 294.58087)">+0.53</text>
    </g>
    <g id="text_58">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="310.507261" transform="rotate(-0 139.32 310.507261)">t +3.7 end +0.38</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="139.32" y="310.594261" transform="rotate(-0 139.32 310.594261)">t +3.7 end +0.38</text>
    </g>
    <g id="PathCollection_15">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="124.0164" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="124.0164" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_59">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="144.702" y="325.03687" transform="rotate(-0 144.702 325.03687)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="144.702" y="325.12487" transform="rotate(-0 144.702 325.12487)">p&lt;.05</text>
    </g>
    <g id="text_60">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="294.43087" transform="rotate(-0 232.92 294.43087)">+0.59</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="232.92" y="294.58087" transform="rotate(-0 232.92 294.58087)">+0.59</text>
    </g>
    <g id="text_61">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="310.507261" transform="rotate(-0 232.92 310.507261)">t +4.2 end +0.26</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="232.92" y="310.594261" transform="rotate(-0 232.92 310.594261)">t +4.2 end +0.26</text>
    </g>
    <g id="PathCollection_16">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="217.6164" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="217.6164" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_62">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="238.302" y="325.03687" transform="rotate(-0 238.302 325.03687)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="238.302" y="325.12487" transform="rotate(-0 238.302 325.12487)">p&lt;.05</text>
    </g>
    <g id="text_63">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="294.43087" transform="rotate(-0 326.52 294.43087)">+0.53</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="326.52" y="294.58087" transform="rotate(-0 326.52 294.58087)">+0.53</text>
    </g>
    <g id="text_64">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="310.507261" transform="rotate(-0 326.52 310.507261)">t +4.2 end +0.38</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="326.52" y="310.594261" transform="rotate(-0 326.52 310.594261)">t +4.2 end +0.38</text>
    </g>
    <g id="PathCollection_17">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="311.2164" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="311.2164" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_65">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="331.902" y="325.03687" transform="rotate(-0 331.902 325.03687)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="331.902" y="325.12487" transform="rotate(-0 331.902 325.12487)">p&lt;.05</text>
    </g>
    <g id="text_66">
-    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="294.43087" transform="rotate(-0 420.12 294.43087)">+0.23</text>
+    <text style="font-weight: 600; font-size: 15px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="294.58087" transform="rotate(-0 420.12 294.58087)">+0.23</text>
    </g>
    <g id="text_67">
-    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="310.507261" transform="rotate(-0 420.12 310.507261)">t +3.0 end +0.12</text>
+    <text style="font-size: 8.7px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #4a5260" x="420.12" y="310.594261" transform="rotate(-0 420.12 310.594261)">t +3.0 end +0.12</text>
    </g>
    <g id="PathCollection_18">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#mfa2a0e4833" x="399.4344" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#mea8fedadb9" x="399.4344" y="322.66087" style="fill: #0e1116; stroke: #0e1116; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_68">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="325.03687" transform="rotate(-0 420.12 325.03687)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #0e1116" x="420.12" y="325.12487" transform="rotate(-0 420.12 325.12487)">p&lt;.05</text>
    </g>
    <g id="PathCollection_19">
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#md68264a3f9" x="440.3376" y="322.66087" style="fill: #0e1116; stroke: #0e1116"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m3f07ce7904" x="440.3376" y="322.66087" style="fill: #0e1116; stroke: #0e1116"/>
     </g>
    </g>
    <g id="text_69">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="92.52" y="354.077149" transform="rotate(-0 92.52 354.077149)">cell: Δ eval reactivity (baseline − regulated) · positive = regulated calmer · t = paired t · end = Δ endurance</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="92.52" y="354.130087" transform="rotate(-0 92.52 354.130087)">cell: Δ eval reactivity (baseline − regulated) · positive = regulated calmer · t = paired t · end = Δ endurance</text>
    </g>
    <g id="PathCollection_20">
     <defs>
-     <path id="m9a94e40694" d="M 0 2.54951 
+     <path id="m28bca9606f" d="M 0 2.54951 
 C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
 C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
 C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
@@ -560,12 +560,12 @@ C -1.324674 2.280877 -0.676138 2.54951 0 2.54951
 z
 " style="stroke: #4a5260; stroke-width: 1.1"/>
     </defs>
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#m9a94e40694" x="95.796" y="364.765217" style="fill: #4a5260; stroke: #4a5260; stroke-width: 1.1"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m28bca9606f" x="95.796" y="364.765217" style="fill: #4a5260; stroke: #4a5260; stroke-width: 1.1"/>
     </g>
    </g>
    <g id="text_70">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="102.348" y="367.141217" transform="rotate(-0 102.348 367.141217)">p&lt;.05</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="102.348" y="367.229217" transform="rotate(-0 102.348 367.229217)">p&lt;.05</text>
    </g>
    <g id="PathCollection_21">
     <path d="M 154.296 367.314727 
@@ -579,37 +579,37 @@ C 151.74649 365.441355 152.015123 366.089891 152.493224 366.567993
 C 152.971326 367.046095 153.619862 367.314727 154.296 367.314727 
 L 154.296 367.314727 
 z
-" clip-path="url(#p4a1f3c61b3)" style="fill: none; stroke: #4a5260; stroke-width: 1.1"/>
+" clip-path="url(#pa9f2c1ed8a)" style="fill: none; stroke: #4a5260; stroke-width: 1.1"/>
    </g>
    <g id="text_71">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="160.848" y="367.141217" transform="rotate(-0 160.848 367.141217)">sub-threshold (n.s.)</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="160.848" y="367.229217" transform="rotate(-0 160.848 367.229217)">sub-threshold (n.s.)</text>
    </g>
    <g id="PathCollection_22">
     <defs>
-     <path id="md338f758e7" d="M -0 3.464102 
+     <path id="m86b69a34d5" d="M 0 3.464102 
 L 3.464102 0 
 L 0 -3.464102 
-L -3.464102 -0 
+L -3.464102 0 
 z
 " style="stroke: #4a5260"/>
     </defs>
-    <g clip-path="url(#p4a1f3c61b3)">
-     <use xlink:href="#md338f758e7" x="280.656" y="364.765217" style="fill: #4a5260; stroke: #4a5260"/>
+    <g clip-path="url(#pa9f2c1ed8a)">
+     <use xlink:href="#m86b69a34d5" x="280.656" y="364.765217" style="fill: #4a5260; stroke: #4a5260"/>
     </g>
    </g>
    <g id="text_72">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="287.208" y="367.08828" transform="rotate(-0 287.208 367.08828)">self-judge</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="287.208" y="367.229217" transform="rotate(-0 287.208 367.229217)">self-judge</text>
    </g>
    <g id="text_73">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="361.62" y="367.08828" transform="rotate(-0 361.62 367.08828)">solid box = the single null · dashed box = n.s.</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="361.62" y="367.229217" transform="rotate(-0 361.62 367.229217)">solid box = the single null · dashed box = n.s.</text>
    </g>
    <g id="text_74">
-    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="92.52" y="380.27541" transform="rotate(-0 92.52 380.27541)">columns: judge families — xAI is the lineage-independent fourth · rows: generators (cooks)</text>
+    <text style="font-size: 8.8px; font-family: 'IBM Plex Sans'; text-anchor: start; fill: #4a5260" x="92.52" y="380.328348" transform="rotate(-0 92.52 380.328348)">columns: judges · Grok 4.3 is the lineage-independent fourth family (xAI) · rows: generators (cooks)</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p4a1f3c61b3">
+  <clipPath id="pa9f2c1ed8a">
    <rect x="12.96" y="12.96" width="468" height="387.36"/>
   </clipPath>
  </defs>

@@ -29,7 +29,7 @@ h4=G.headline_4x4()
 check("headline 4x4 = 15/16, 11/12 offdiag, 4/4 diag",
       (h4["cells_pass"],h4["cells_total"],h4["offdiag_pass"],h4["offdiag_total"],h4["diag_pass"],h4["diag_total"])==(15,16,11,12,4,4))
 h3=G.headline_3x3()
-check("frozen anchor 8/9 (5/6 offdiag, 3/3 diag)",
+check("frozen 3×3 provenance 8/9 (5/6 offdiag, 3/3 diag)",
       (h3["cells_pass"],h3["cells_total"],h3["offdiag_pass"],h3["offdiag_total"],h3["diag_pass"],h3["diag_total"])==(8,9,5,6,3,3))
 rec,rt=G.recovery_counts(); check("recovery 4/4",(rec,rt)==(4,4))
 

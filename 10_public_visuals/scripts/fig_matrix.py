@@ -78,7 +78,7 @@ def main(outdir,mode="paper"):
                 fontweight="semibold",color=G.INK,ha="left",va="center")
         ax.text(2,77.3,f"Regulated beats baseline in {h4['cells_pass']} of {h4['cells_total']} cells "
                 f"({h4['offdiag_pass']}/{h4['offdiag_total']} off-diagonal · {h4['diag_pass']}/{h4['diag_total']} self-judge) — "
-                f"frozen 3×3 anchor: {h3['cells_pass']}/{h3['cells_total']}.",
+                f"frozen 3×3 (provenance): {h3['cells_pass']}/{h3['cells_total']}.",
                 fontsize=9.3,family=G.SANS,color=G.GOVD,ha="left",va="center")
     # key (three compact lines; the caption owns the headline result)
     T(X0,10.4,"cell: Δ eval reactivity (baseline − regulated) · positive = regulated calmer · t = paired t · end = Δ endurance",8.8,c=G.INK2,ha="left")

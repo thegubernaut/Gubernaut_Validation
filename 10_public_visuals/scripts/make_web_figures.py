@@ -51,7 +51,7 @@ def glance(outdir):
     cards=[(f"{h4['cells_pass']}/{h4['cells_total']}","cells favor regulated","4×4 matrix · sign test",G.GOV),
            (f"{h4['offdiag_pass']}/{h4['offdiag_total']}","off-diagonal cells","cross-family, no self-judge",G.GOVD),
            (f"{rec}/{rt}","recovery replicates","arousal resets by T8, every cook",G.GREEN),
-           (f"{h3['cells_pass']}/{h3['cells_total']}","frozen 3×3 anchor","sealed 2026-06-11 · unaltered",G.INK),
+           (f"{h3['cells_pass']}/{h3['cells_total']}","frozen 3×3 · provenance","sealed 2026-06-11 · unaltered",G.INK),
            ("1","null cell, reported",f"GPT × Gemini, {null['m']:+.2f}\nnot a reversal",G.VERM)]
     x=3.5; w=21.6; gap=1.55
     for big,lab,sub,col in cards:
