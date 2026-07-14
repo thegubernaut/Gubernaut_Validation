@@ -1,6 +1,6 @@
 # Gubernaut — A Cognitive Control System for Verifiable Agent Alignment
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21303519.svg)](https://doi.org/10.5281/zenodo.21303519)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21303518.svg)](https://doi.org/10.5281/zenodo.21303518)
 [![Paper](https://img.shields.io/badge/paper-PDF-0072B2)](https://gubernaut.com/paper/gubernaut_whitepaper.pdf)
 [![Website](https://img.shields.io/badge/gubernaut.com-replay%20dashboard-0072B2)](https://gubernaut.com/research)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-555555)](LICENSE)
@@ -17,7 +17,7 @@ consciousness are made anywhere in this project; the controller's target regime 
 an engineering objective (calm, evidence-responsive output under adversarial
 pressure), and every claim traces to logged, re-judgeable runs.
 
-![What the sealed record shows: regulated favored in 15/16 cells (11/12 off-diagonal), recovery replicates 4/4, frozen 3×3 provenance 8/9, and the single null cell (GPT × Gemini, −0.04) reported, not hidden](10_public_visuals/B_website/web_at_a_glance.png)
+![What the sealed record shows: regulated favored in 15/16 cells (11/12 off-diagonal), recovery replicates 4/4, frozen 3×3 provenance 8/9, and the single null cell (GPT × Gemini, −0.04) reported, not hidden](docs/img/web_at_a_glance.png)
 
 ## The paper
 
@@ -25,7 +25,7 @@ pressure), and every claim traces to logged, re-judgeable runs.
 Agents, Validated Across Independent Model Families"** — Gubernaut Research, 2026.
 
 - **PDF (camera-ready):** [gubernaut.com/paper/gubernaut_whitepaper.pdf](https://gubernaut.com/paper/gubernaut_whitepaper.pdf)
-- **Archived evidence release (this repository):** DOI [10.5281/zenodo.21303519](https://doi.org/10.5281/zenodo.21303519)
+- **Archived evidence release (this repository):** DOI [10.5281/zenodo.21303518](https://doi.org/10.5281/zenodo.21303518)
 - **Recorded-run replay dashboard:** [gubernaut.com/research](https://gubernaut.com/research) — replays the sealed transcripts; no live API
 - arXiv listing to follow.
 
@@ -42,8 +42,9 @@ instruments are proprietary (patent pending) and excluded (see `RELEASE_MANIFEST
 | `02_data/tables/` | extracted CSVs + figures (master table, agreement, recovery, dampening) |
 | `02_data/scripts/` | regenerate the tables/figures; `RECOMPUTE.md` shows how to rebuild the matrix |
 | `tools/tri_combine.py` | the combine script — rebuilds the whole matrix from the panels |
+| `paper/` | the camera-ready white paper (PDF) |
 | `docs/` | architecture overview, taxonomy scorecard, the Stage-1/2/3 results docs, and the five pre-registrations |
-| `10_public_visuals/` | the publication figures (paper set + web set), the scripts that render them from the sealed data, and the fonts they need — `verify_figure_numbers.py` checks every number in every figure against the raw record |
+| `figures/` | the scripts that render every figure in the paper from the sealed data — `verify_figure_numbers.py` asserts every plotted value against the raw record (20 checks, ALL PASS) |
 | `SHA256SUMS` · `REDACTIONS.md` | integrity manifest and the single documented redaction |
 | `gcc-validation-data.zip` (+ `.ots`) | the sealed data snapshot with its OpenTimestamps receipt; `SHA256SUMS.ots` timestamps the manifest itself (`stamp_ots.py` reproduces the stamping) |
 
@@ -90,7 +91,7 @@ generator, 3-sample judge panels at temperature 0. The earlier three-model 3×3 
 pre-registered and frozen before the fourth family was added; adding it changed no
 earlier cell, and both matrices ship verbatim.
 
-![The 4×4 triangulation matrix: regulated beats baseline in 15 of 16 cells; the single null (GPT-5.5 generator × Gemini judge, −0.04, not a reversal) is boxed solid; three sub-threshold cells on the GPT row are boxed dashed](10_public_visuals/B_website/web_matrix_4x4.png)
+![The 4×4 triangulation matrix: regulated beats baseline in 15 of 16 cells; the single null (GPT-5.5 generator × Gemini judge, −0.04, not a reversal) is boxed solid; three sub-threshold cells on the GPT row are boxed dashed](docs/img/web_matrix_4x4.png)
 
 - **Regulated beats baseline in 15/16 generator×judge cells (11/12 off-diagonal, 4/4 diagonal).** The sole exception — the same null in both matrices (GPT-5.5 × Gemini, −0.04), not a reversal — sits on the least-reactive generator. Adding Grok as a 4th generator (row 4/4) and a 4th independent judge family (xAI column 4/4) introduced no new failures.
 - **The effect survives a fully independent 4th judge family (xAI)** — the central judge-independence claim — and **scales with the generator's reactivity headroom**: Gemini 3.5 Flash (most reactive baseline) +1.12…+1.80 across judges (t up to 8.2); Opus 4.8 +0.55…+0.67 (t ≥ 3.5); Grok 4.3 mid-range (judges-avg +0.47, t 4.4); GPT-5.5 ≈ +0.18 (already near-saturated calm).
@@ -98,7 +99,7 @@ earlier cell, and both matrices ship verbatim.
 - **Self-reference suppression positive in 15/16 cells**; ego-drift under ego-bait reversed on 3/4 generators (Opus the single exception).
 - **Inter-judge agreement now spans 4 judges → 6 pairs**; adding xAI did not degrade it — Grok clusters tightly with Claude and Gemini.
 
-![Recovery signature, S4 and S5: on genuine de-escalation, controller arousal decays monotonically and regulated output returns to calm on every de-escalation turn, on all four model families](10_public_visuals/B_website/web_recovery_S4S5.png)
+![Recovery signature, S4 and S5: on genuine de-escalation, controller arousal decays monotonically and regulated output returns to calm on every de-escalation turn, on all four model families](docs/img/web_recovery_S4S5.png)
 
 All transcripts, judge panels (with sha256 provenance), and the combine script are
 published for **both** the 4×4 and the frozen 3×3; anyone can re-judge the frozen
@@ -131,7 +132,7 @@ model. Full scorecard: `docs/taxonomy_scorecard.md`.
 - **Code** (`tools/`, `02_data/scripts/`): MIT.
 - The Gubernaut Cognitive Controller itself — control logic, gains, thresholds, prompts, held-out instruments — is **not included** and is proprietary (**patent pending**). See `LICENSE`.
 
-To cite, see `CITATION.cff` (DOI [10.5281/zenodo.21303519](https://doi.org/10.5281/zenodo.21303519))
+To cite, see `CITATION.cff` (DOI [10.5281/zenodo.21303518](https://doi.org/10.5281/zenodo.21303518))
 or the copy-ready citation block on [gubernaut.com/research](https://gubernaut.com/research).
 The white paper is published — links in `PAPER.md`.
 

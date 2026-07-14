@@ -70,23 +70,12 @@ check("series spot: Grok S5 T4",spot("Grok","S5",4))
 check("series spot: GPT S4 T10 baseline",spot("GPT","S4",10,"baseline"))
 check("series rows = 400",len(ser)==400)
 
-# ---- 6. staged assets exist, vector + >=300dpi PNG ----
-from PIL import Image
-PV=G.PV
-A=["gcc_architecture_schematic","gcc_sealed_record_summary","gcc_matrix_4x4","gcc_effect_forest",
-   "gcc_headroom_by_cook","gcc_recovery_S4S5","gcc_faculty_contribution"]
-B=["gcc_architecture_blueprint_dark","web_matrix_4x4","web_recovery_S4S5","web_headroom_by_cook",
-   "web_dose_response","web_at_a_glance","web_dual_process","web_faculty_gapfill"]
-MINW={"gcc_faculty_contribution":1380,"web_faculty_gapfill":1340}   # 4.6in layout width x 300dpi
-ok=True; small=[]
-for sub,names in (("A_whitepaper",A),("B_website",B)):
-    for n in names:
-        for ext in ("pdf","png","svg"):
-            ok &= (PV/sub/f"{n}.{ext}").exists()
-        im=Image.open(PV/sub/f"{n}.png")
-        if im.width<MINW.get(n,1900): small.append(f"{n}:{im.width}px")
-check("all 14 assets staged as PDF+PNG+SVG",ok)
-check("all PNGs >= 300 dpi at layout width",not small,str(small))
+# ---- 6. (internal only) The asset-staging gate — "every figure exists as
+# PDF+PNG+SVG at >=300dpi" — lives in the private visual registry, not here. It
+# checks rendered files, and this release ships the scripts, not the renders:
+# the figures are printed in the paper. Every VALUE those figures plot is
+# asserted above, straight from the sealed record, which is the reproducibility
+# claim the paper (§11) actually makes.
 
 # ---- 7. print set carries no baked figure numbering ----
 import re

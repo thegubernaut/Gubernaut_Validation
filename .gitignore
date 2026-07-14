@@ -31,3 +31,12 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Release hygiene — these must never re-enter the public record.
+# The figures are printed in the paper; figures/ ships the scripts that
+# regenerate them from 02_data/, not the renders. Font binaries are not ours
+# to redistribute and are not needed to reproduce any value.
+figures/out/
+figures/fonts/
+*.ttf
+*.otf

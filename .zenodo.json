@@ -1,0 +1,43 @@
+{
+  "title": "Gubernaut: A Deterministic Homeostatic Controller for Affect-Regulated LLM Agents, Validated Across Independent Model Families",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Sharma, Dushyant",
+      "affiliation": "Gubernaut Research",
+      "orcid": "0009-0007-6534-0347"
+    }
+  ],
+  "description": "<p>The paper and its complete validation record for the Gubernaut Cognitive Controller (GCC), a model-agnostic, deterministic runtime control layer for LLM agents built as a Nelson-Narens monitoring-control loop: the object level reads and writes text, while a token-free meta level reads only numeric telemetry {intensity, valence, repetition} and returns a regulating posture. Because the meta level ingests zero tokens, no injection channel to the controller exists by construction (an architectural property, not yet adversarially tested); the text-exposed arbiter's posture compliance is measured, not assumed.</p><p><strong>Headline result</strong> (pre-registered, generate-once / judge-many, over a symmetric 4x4 generator-by-judge matrix of GPT-5.5, Claude Opus 4.8, Gemini 3.5 Flash, and Grok 4.3): the regulated arm is calmer in 15 of 16 cells by sign (11 of 12 off-diagonal) and 13 of 16 at p&lt;.05. The one null cell (-0.04, GPT x Gemini) is reported alongside the headline, not hidden; the three sub-threshold cells all fall on the single near-saturated host. The effect survives a lineage-independent fourth judge family (xAI), which is strong evidence it is not an artifact of shared judge lineage or style. The clearest mechanism is the recovery signature: arousal integrates under sustained attack, then decays, valence-gated, once the adversary de-escalates, replicating in all four families.</p><p><strong>This record contains</strong> the camera-ready paper (PDF) and the validation release: all endurance and evaluation transcripts for all four generators, both arms, verbatim; all judge panels (four judge families, three samples per unit) with SHA-256 provenance; the sealed matrices (the frozen three-model matrix and the 4x4); tidy per-turn telemetry and dampening tables (CSV); the extraction, statistics, and figure scripts that reproduce every published table and figure from the raw files; and all pre-registration documents with their lock timestamps.</p><p><strong>Withheld</strong>, per the pre-registered contamination principle: the faculty prompts, the judge rubric text, the controller's calibration constants, and the held-out stressor texts.</p><p>No consciousness claims are made. The system is a regulation layer: measured, pre-registered, and falsifiable.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "v1.0.2",
+  "language": "eng",
+  "keywords": [
+    "LLM agents",
+    "runtime control layer",
+    "homeostatic regulation",
+    "metacognition",
+    "affect regulation",
+    "cognitive governor",
+    "LLM-as-a-judge",
+    "cross-family evaluation",
+    "prompt injection",
+    "AI safety",
+    "pre-registration",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thegubernaut/Gubernaut_Validation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://gubernaut.com",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}

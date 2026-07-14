@@ -19,11 +19,14 @@ import matplotlib.pyplot as plt
 
 # ---------- paths ----------
 _HERE = Path(__file__).resolve().parent
-PV    = Path(os.environ.get("PV_ROOT", _HERE.parent))          # 10_public_visuals/
-BASE  = Path(os.environ.get("AMT_BASE", _HERE.parents[1]))      # E:\AMT
+BASE  = Path(os.environ.get("AMT_BASE", _HERE.parent))          # repository root
 RAW   = BASE / "02_data" / "raw"
 TAB   = BASE / "02_data" / "tables"
-FONTS = Path(os.environ.get("PV_FONTS", PV / "fonts"))
+# The IBM Plex font binaries are NOT redistributed with this release. Point
+# PV_FONTS at a directory of IBM Plex .ttf files to reproduce the paper's exact
+# typography; without them matplotlib falls back to DejaVu and every plotted
+# VALUE is unchanged (verify_figure_numbers.py asserts the values, not glyphs).
+FONTS = Path(os.environ.get("PV_FONTS", _HERE / "fonts"))
 
 # ---------- brand tokens (BRAND_GUIDELINES_v0.2) ----------
 INK="#0E1116"; INK2="#4A5260"; HAIR="#D8DAD3"; PAPER="#FFFFFF"

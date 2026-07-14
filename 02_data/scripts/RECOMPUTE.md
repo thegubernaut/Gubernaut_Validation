@@ -40,13 +40,22 @@ telemetry or evidence.
 
 ## 5. Verify every figure value against the shipped record
 
-    cd 10_public_visuals/scripts && python verify_figure_numbers.py
+    cd figures && python verify_figure_numbers.py
 
-Asserts every value plotted in the paper's figures (and the staged figure assets
-in `10_public_visuals/A_whitepaper` + `B_website`) against `tri_final_4x4.json`,
-`tri_final.json`, `master_table_4x4.csv`, and the series CSV. Expected: ALL PASS
-(22 checks). The figures themselves regenerate via `make_paper_figures.py` /
-`make_web_figures.py`. Needs `matplotlib`, `numpy`, `pillow` (requirements.txt).
+Asserts every value plotted in the paper's figures against `tri_final_4x4.json`,
+`tri_final.json`, `master_table_4x4.csv`, and the series CSV. Expected: **ALL PASS**
+(20 checks). Regenerate the figures themselves with:
+
+    cd figures && python make_paper_figures.py all     # -> figures/out/A_whitepaper
+
+Needs `matplotlib`, `numpy` (requirements.txt).
+
+The figures are printed in the paper, so this release ships the *scripts that
+produce them*, not the renders. The IBM Plex font binaries are likewise not
+redistributed: without them matplotlib falls back to DejaVu and the typography
+differs, while **every plotted value is identical** — which is what the harness
+above checks. Set `PV_FONTS` to a directory of IBM Plex `.ttf` files to reproduce
+the paper's exact typography.
 
 ## 6. Recompute the paper's §6.6 statistics sentences
 

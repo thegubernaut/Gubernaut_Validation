@@ -6,7 +6,7 @@ Agents, Validated Across Independent Model Families"** — Gubernaut Research, 2
 - **PDF (camera-ready, 26 pp):**
   [gubernaut.com/paper/gubernaut_whitepaper.pdf](https://gubernaut.com/paper/gubernaut_whitepaper.pdf)
 - **Archived evidence release (this repository):**
-  DOI [10.5281/zenodo.21303519](https://doi.org/10.5281/zenodo.21303519)
+  DOI [10.5281/zenodo.21303518](https://doi.org/10.5281/zenodo.21303518)
 - **Recorded-run replay dashboard:**
   [gubernaut.com/research](https://gubernaut.com/research)
 - arXiv listing to follow.
