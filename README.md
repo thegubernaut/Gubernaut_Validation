@@ -45,6 +45,7 @@ instruments are proprietary (patent pending) and excluded (see `RELEASE_MANIFEST
 | `paper/` | the camera-ready white paper (PDF) |
 | `docs/` | architecture overview, taxonomy scorecard, the Stage-1/2/3 results docs, and the five pre-registrations |
 | `figures/` | the scripts that render every figure in the paper from the sealed data — `verify_figure_numbers.py` asserts every plotted value against the raw record (20 checks, ALL PASS) |
+| `blueprint/` | **runnable reference skeleton of the token-free boundary** (stdlib-only, `python blueprint/governor_skeleton.py`): the controller as an array-driven state machine that no text token can reach — illustrative constants, not the evaluated configuration |
 | `SHA256SUMS` · `REDACTIONS.md` | integrity manifest and the single documented redaction |
 | `gcc-validation-data.zip` (+ `.ots`) | the sealed data snapshot with its OpenTimestamps receipt; `SHA256SUMS.ots` timestamps the manifest itself (`stamp_ots.py` reproduces the stamping) |
 
