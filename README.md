@@ -27,14 +27,18 @@ Agents, Validated Across Independent Model Families"** — Gubernaut Research, 2
 - **PDF (camera-ready):** [gubernaut.com/paper/gubernaut_whitepaper.pdf](https://gubernaut.com/paper/gubernaut_whitepaper.pdf)
 - **Archived evidence release (this repository):** DOI [10.5281/zenodo.21303518](https://doi.org/10.5281/zenodo.21303518)
 - **Recorded-run replay dashboard:** [gubernaut.com/research](https://gubernaut.com/research) — replays the sealed transcripts; no live API
-- arXiv listing to follow.
+- **arXiv preprint:** [arXiv:2607.24339](https://arxiv.org/abs/2607.24339)
 
 ## What's in this repository
 
 This is the **evidence & verification release** — the data and tooling behind the
-headline result, published so a stranger can reproduce it. It is *not* the
-controller's source: the control logic, prompts, thresholds, and held-out
-instruments are proprietary (patent pending) and excluded (see `RELEASE_MANIFEST.md`).
+headline result, published so a stranger can reproduce it. It is not the controller's
+source, but **the controller is open**: it ships under Apache-2.0 in
+[thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut), including its patent
+grant. What is not published is the **evaluated configuration** — the specific gains and
+thresholds used to produce the record in this repository. The shipped package uses
+documented working defaults instead, and says so at the top of `gcc_proxy/config.py`.
+See [Open boundary](#open-boundary) below and `RELEASE_MANIFEST.md`.
 
 | Path | What |
 |---|---|
@@ -131,7 +135,29 @@ model. Full scorecard: `docs/taxonomy_scorecard.md`.
 
 - **Data & documentation:** Creative Commons Attribution 4.0 (CC BY 4.0).
 - **Code** (`tools/`, `02_data/scripts/`): MIT.
-- The Gubernaut Cognitive Controller itself — control logic, gains, thresholds, prompts, held-out instruments — is **not included** and is proprietary (**patent pending**). See `LICENSE`.
+- **The controller** is not in *this* repository, but it is open source: Apache-2.0 in
+  [thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut). See below.
+
+## Open boundary
+
+Two things are easy to conflate, so they are stated separately.
+
+| | |
+|---|---|
+| **Open** | The controller, the proxy and all three packages (PyPI, npm, crates.io) are **Apache-2.0**, which carries an express patent grant. Nothing about the shipped implementation is withheld. |
+| **Held out** | The **evaluated configuration** — the specific gains and thresholds that produced the 4×4 record here — is not published. A patent application covers the control method. The shipped constants are documented working defaults, not that configuration. |
+
+What this means in practice:
+
+- **Reproduces with the shipped package:** the engineering receipts, the spend batteries,
+  the loop-trap and fail-safe suites, the latency benchmark and the golden traces. The
+  first three levels of `docs/REPRODUCE.md` need no API key.
+- **Produced with the held-out configuration:** the cross-family regulation evaluation in
+  this repository. Its transcripts, judge panels and scoring scripts are published in
+  full, so **the scoring reproduces from the sealed panels** even though the original run
+  does not.
+
+This is a plain description of the published licences, not legal advice.
 
 To cite, see `CITATION.cff` (DOI [10.5281/zenodo.21303518](https://doi.org/10.5281/zenodo.21303518))
 or the copy-ready citation block on [gubernaut.com/research](https://gubernaut.com/research).
