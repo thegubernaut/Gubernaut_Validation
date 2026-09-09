@@ -34,7 +34,8 @@ Agents, Validated Across Independent Model Families"** — Gubernaut Research, 2
 This is the **evidence & verification release** — the data and tooling behind the
 headline result, published so a stranger can reproduce it. It is not the controller's
 source, but **the controller is open**: it ships under Apache-2.0 in
-[thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut), including its patent
+[thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut), as two named products,
+**Gubernaut Tiller** (Python) and **Gubernaut Keel** (Node/TS), including its patent
 grant. What is not published is the **evaluated configuration** — the specific gains and
 thresholds used to produce the record in this repository. The shipped package uses
 documented working defaults instead, and says so at the top of `gcc_proxy/config.py`.
@@ -136,7 +137,8 @@ model. Full scorecard: `docs/taxonomy_scorecard.md`.
 - **Data & documentation:** Creative Commons Attribution 4.0 (CC BY 4.0).
 - **Code** (`tools/`, `02_data/scripts/`): MIT.
 - **The controller** is not in *this* repository, but it is open source: Apache-2.0 in
-  [thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut). See below.
+  [thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut), shipping as
+  **Gubernaut Tiller** (Python) and **Gubernaut Keel** (Node/TS). See below.
 
 ## Open boundary
 
