@@ -1,0 +1,10 @@
+# Line endings, so that the published checks pass on a fresh clone on every platform.
+#
+# SHA256SUMS was computed over the release files as they were written, and the JSON transcripts
+# and the CSV tables were written with Windows line endings (Python's csv module writes \r\n).
+# Git stores text with Unix endings, so without these lines a clone on Linux or macOS fails
+# `sha256sum -c SHA256SUMS` on 63 of its 84 files, and RECOMPUTE.md step 4's regenerated tables
+# differ from the checkout by their line endings alone. These lines restore the written bytes on
+# checkout. They change no stored file.
+02_data/raw/*.json text eol=crlf
+02_data/tables/*.csv text eol=crlf
