@@ -1,0 +1,8 @@
+# Updates for the workflow actions only. The Python pins in requirements.txt are the versions
+# the record was verified with, so they move by hand, with the recompute chain re-run.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

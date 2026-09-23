@@ -1,9 +1,7 @@
-anthropic
-python-dotenv
-google-generativeai
-openai
-krippendorff
-scipy
-# figure regeneration + verification (figures/)
-matplotlib
-numpy
+# Recompute and verify the published record: RECOMPUTE.md steps 1 and 3 to 6, and the figures.
+# Pinned to the versions this release was verified with on Python 3.12 (2026-09-23): step 4
+# byte-identical, step 5 ALL PASS, step 6 ALL VALIDATIONS PASS. Steps 1 and 4 need only the
+# standard library; step 6 needs scipy for its Wilcoxon test; the figures need matplotlib and numpy.
+numpy==2.5.2
+scipy==1.18.1
+matplotlib==3.11.1
