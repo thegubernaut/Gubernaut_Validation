@@ -26,7 +26,7 @@ Agents, Validated Across Independent Model Families"** — Gubernaut Research, 2
 
 - **PDF (camera-ready):** [gubernaut.com/paper/gubernaut_whitepaper.pdf](https://gubernaut.com/paper/gubernaut_whitepaper.pdf)
 - **Archived evidence release (this repository):** DOI [10.5281/zenodo.21303518](https://doi.org/10.5281/zenodo.21303518)
-- **Recorded-run replay dashboard:** [gubernaut.com/research](https://gubernaut.com/research) — replays the sealed transcripts; no live API
+- **Recorded-run replay dashboard:** [gubernaut.com/research/cockpit](https://gubernaut.com/research/cockpit) — replays the sealed transcripts; no live API
 - **arXiv preprint:** [arXiv:2607.24339](https://arxiv.org/abs/2607.24339)
 
 ## What's in this repository
@@ -58,6 +58,11 @@ See [Open boundary](#open-boundary) below and `RELEASE_MANIFEST.md`.
 over the four published panels regenerates **15/16 (11/12 off-diagonal, 4/4
 diagonal)**. Or score the transcripts with your own judge — the generate-once /
 judge-many design makes the result independent of our judges.
+
+**Check the seal first.** `sha256sum -c SHA256SUMS` passes 84 of 84 on a fresh clone, on any
+platform. The sealed files were written with Windows line endings, and `.gitattributes` restores
+them on checkout, so no stored byte changed. `.github/workflows/verify.yml` runs the seal check and
+the recompute chain on every push.
 
 ## Framework
 
