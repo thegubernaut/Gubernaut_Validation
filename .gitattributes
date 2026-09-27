@@ -12,6 +12,12 @@
 # seven SVG figures and the two master tables into bytes SHA256SUMS never saw: 75 of 84 passed. Found
 # by the 2026-09-27 review. -text means "check out exactly what is stored"; the later lines win for
 # the JSON and CSV files, because a later matching line overrides an earlier one.
+#
+# SHA256SUMS itself is pinned too, found the same day by the Windows seal job: converted to CRLF,
+# every line ends in a carriage return, the sha256sum in Git for Windows looks for file names that
+# end in one and opens none of them, and SHA256SUMS.ots no longer timestamps the bytes on disk.
+# GNU coreutils 9 on Linux tolerates the carriage returns, which is why only Windows showed it.
+SHA256SUMS -text
 02_data/** -text
 .zenodo.json -text
 CITATION.cff -text

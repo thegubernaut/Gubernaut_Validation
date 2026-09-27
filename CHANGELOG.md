@@ -10,8 +10,9 @@ every entry below leaves it byte for byte as sealed.
   line endings the sealed files were written with, so `sha256sum -c SHA256SUMS` (RECOMPUTE.md
   step 3) passes 84 of 84 on Linux and macOS, where it had passed 21, and on Windows with Git's
   default `core.autocrlf=true`, where the first version of this file passed 75: it restored the
-  JSON and CSV endings but let Git convert the SVG figures and the two master tables. It now stops
-  Git converting any sealed file (found by the 2026-09-27 review). Step 4's regenerated tables
+  JSON and CSV endings but let Git convert the SVG figures, the two master tables and
+  `SHA256SUMS` itself. It now stops Git converting any sealed file or the manifest (found by the
+  2026-09-27 review and by the Windows seal job's first run). Step 4's regenerated tables
   match the checkout byte for byte as well. No stored file changed.
 - **The recompute chain runs on every push.** `.github/workflows/verify.yml` runs RECOMPUTE.md
   steps 1 and 3 to 6, read-only. Step 4 compares the regenerated tables byte for byte against the
