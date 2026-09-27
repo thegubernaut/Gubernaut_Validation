@@ -19,6 +19,10 @@ pressure), and every claim traces to logged, re-judgeable runs.
 
 ![What the sealed record shows: regulated favored in 15/16 cells (11/12 off-diagonal), recovery replicates 4/4, frozen 3×3 provenance 8/9, and the single null cell (GPT × Gemini, −0.04) reported, not hidden](docs/img/web_at_a_glance.png)
 
+Across four frontier model families, regulated output was calmer by sign in 15/16
+generator×judge cells, 11/12 off-diagonal, and 13/16 at p<.05. The single null cell is
+GPT × Gemini, −0.04, reported rather than patched; recovery replicates 4/4.
+
 ## The paper
 
 **"Gubernaut: A Deterministic Homeostatic Controller for Affect-Regulated LLM
@@ -35,8 +39,8 @@ This is the **evidence & verification release** — the data and tooling behind 
 headline result, published so a stranger can reproduce it. It is not the controller's
 source, but **the controller is open**: it ships under Apache-2.0 in
 [thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut), as two named products,
-**Gubernaut Tiller** (Python) and **Gubernaut Keel** (Node/TS), including its patent
-grant. What is not published is the **evaluated configuration** — the specific gains and
+**Gubernaut Tiller**, the separate proxy process, and **Gubernaut Keel**, the controller
+in-process for JavaScript/TypeScript and Rust, including its patent grant. What is not published is the **evaluated configuration** — the specific gains and
 thresholds used to produce the record in this repository. The shipped package uses
 documented working defaults instead, and says so at the top of `gcc_proxy/config.py`.
 See [Open boundary](#open-boundary) below and `RELEASE_MANIFEST.md`.
@@ -60,9 +64,10 @@ diagonal)**. Or score the transcripts with your own judge — the generate-once 
 judge-many design makes the result independent of our judges.
 
 **Check the seal first.** `sha256sum -c SHA256SUMS` passes 84 of 84 on a fresh clone, on any
-platform. The sealed files were written with Windows line endings, and `.gitattributes` restores
-them on checkout, so no stored byte changed. `.github/workflows/verify.yml` runs the seal check and
-the recompute chain on every push.
+platform and whatever your line-ending setting. The JSON and CSV files were written with Windows
+line endings, which `.gitattributes` restores on checkout, and it stops Git converting any other
+sealed file, so no stored byte changed. `.github/workflows/verify.yml` runs the seal check and the
+recompute chain on every push, and the seal check again on Windows with `core.autocrlf=true`.
 
 ## Framework
 
@@ -104,7 +109,7 @@ earlier cell, and both matrices ship verbatim.
 
 ![The 4×4 triangulation matrix: regulated beats baseline in 15 of 16 cells; the single null (GPT-5.5 generator × Gemini judge, −0.04, not a reversal) is boxed solid; three sub-threshold cells on the GPT row are boxed dashed](docs/img/web_matrix_4x4.png)
 
-- **Regulated beats baseline in 15/16 generator×judge cells (11/12 off-diagonal, 4/4 diagonal).** The sole exception — the same null in both matrices (GPT-5.5 × Gemini, −0.04), not a reversal — sits on the least-reactive generator. Adding Grok as a 4th generator (row 4/4) and a 4th independent judge family (xAI column 4/4) introduced no new failures.
+- **Regulated beats baseline in 15/16 generator×judge cells (11/12 off-diagonal, 4/4 diagonal), and 13/16 reach p<.05.** The sole exception — the same null in both matrices (GPT-5.5 × Gemini, −0.04), not a reversal — sits on the least-reactive generator. Adding Grok as a 4th generator (row 4/4) and a 4th independent judge family (xAI column 4/4) introduced no new failures.
 - **The effect survives a fully independent 4th judge family (xAI)** — the central judge-independence claim — and **scales with the generator's reactivity headroom**: Gemini 3.5 Flash (most reactive baseline) +1.12…+1.80 across judges (t up to 8.2); Opus 4.8 +0.55…+0.67 (t ≥ 3.5); Grok 4.3 mid-range (judges-avg +0.47, t 4.4); GPT-5.5 ≈ +0.18 (already near-saturated calm).
 - **The recovery property replicates 4/4**: arousal decays monotonically on genuine de-escalation, output calm on every de-escalation turn, on every model family — as predicted for a deterministic controller.
 - **Self-reference suppression positive in 15/16 cells**; ego-drift under ego-bait reversed on 3/4 generators (Opus the single exception).
@@ -143,7 +148,8 @@ model. Full scorecard: `docs/taxonomy_scorecard.md`.
 - **Code** (`tools/`, `02_data/scripts/`): MIT.
 - **The controller** is not in *this* repository, but it is open source: Apache-2.0 in
   [thegubernaut/gubernaut](https://github.com/thegubernaut/gubernaut), shipping as
-  **Gubernaut Tiller** (Python) and **Gubernaut Keel** (Node/TS). See below.
+  **Gubernaut Tiller**, the separate proxy process, and **Gubernaut Keel**, the controller
+  in-process for JavaScript/TypeScript and Rust. See below.
 
 ## Open boundary
 
@@ -151,7 +157,7 @@ Two things are easy to conflate, so they are stated separately.
 
 | | |
 |---|---|
-| **Open** | The controller, the proxy and all three packages (PyPI, npm, crates.io) are **Apache-2.0**, which carries an express patent grant. Nothing about the shipped implementation is withheld. |
+| **Open** | The controller, the proxy and all five packages (on PyPI, npm and crates.io) are **Apache-2.0**, which carries an express patent grant. Nothing about the shipped implementation is withheld. |
 | **Held out** | The **evaluated configuration** — the specific gains and thresholds that produced the 4×4 record here — is not published. A patent application covers the control method. The shipped constants are documented working defaults, not that configuration. |
 
 What this means in practice:

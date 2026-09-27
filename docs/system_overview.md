@@ -55,7 +55,7 @@ Cross-family triangulation (generators × judges), pre-registered criteria,
 3-sample judge panels at temp 0, sha256-verified transcript provenance. The
 strengthened result is a symmetric **4×4** (GPT-5.5, Claude Opus 4.8, Gemini 3.5
 Flash, Grok 4.3 — each both generator and judge): **regulated beats baseline in
-15/16 cells (11/12 off-diagonal, 4/4 diagonal)**, anchored on the original frozen
+15/16 cells (11/12 off-diagonal, 4/4 diagonal), 13/16 at p<.05**, anchored on the original frozen
 three-model **3×3 (8/9 cells, 5/6 off-diagonal, 3/3 diagonal)**. The effect scales
 with the generator's intrinsic reactivity headroom and survives a fully
 independent fourth judge family (xAI); the one null cell (GPT-5.5 × Gemini judge,
